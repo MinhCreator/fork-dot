@@ -34,6 +34,9 @@ super + n
 super + l   
 	betterlockscreen -l dim
 
+super + b
+    exec ~/.config/bspwm/alacritty.sh
+
 screenshot
 alt + {_,shift + }s
 	flameshot gui

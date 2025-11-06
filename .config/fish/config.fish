@@ -11,6 +11,8 @@ alias grep="grep --color=auto"
 alias update="paru -Syu"
 alias ..="cd .."
 alias ...="cd ../.."
+alias connect="ssh owodray@192.168.0.107"
+alias upd="sudo nano /opt/discord/resources/build_info.json"
 
 # ====== integration with starship ======
 if type -q starship

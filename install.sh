@@ -2,15 +2,14 @@
 
 set -e
 
+DOTDIR="$HOME/dotfiles"
+
 echo "checking paru installation..."
 
 if ! command -v paru &> /dev/null
 then
     echo "paru not found, installing paru..."
-    # install base-devel and git if not installed (required for paru build)
     sudo pacman -S --needed --noconfirm base-devel git
-
-    # clone paru build repo
     git clone https://aur.archlinux.org/paru.git
     cd paru
     makepkg -si --noconfirm
@@ -23,17 +22,52 @@ fi
 
 echo "starting to install packages, hold tight..."
 
-# 0. copy dotfiles to home, if folder dotfiles exists in cwd
-if [ -d ./dotfiles ]; then
-  echo "copying dotfiles to home folder..."
-  # copy all files/folders from dotfiles/home to ~/
-  cp -r ./dotfiles/home/. ~/
-  # copy contents of dotfiles/.config to ~/.config without replacing whole folder
-  mkdir -p ~/.config
-  cp -r ./dotfiles/.config/* ~/.config/ 2>/dev/null || true
-  echo "dotfiles copied"
+# 0. symlink dotfiles
+if [ -d "$DOTDIR" ]; then
+  echo "linking dotfiles..."
+
+  # ---------- link top-level dotfiles
+  for file in "$DOTDIR"/.*; do
+    name="$(basename "$file")"
+
+    # skip . and ..
+    [[ "$name" == "." || "$name" == ".." ]] && continue
+
+    # skip .config
+    [[ "$name" == ".config" ]] && continue
+
+    target="$HOME/$name"
+
+    if [ -e "$target" ] && [ ! -L "$target" ]; then
+      echo "⚠️ $target already exists (not symlink), skipping"
+      continue
+    fi
+
+    ln -sf "$file" "$target"
+    echo "→ linked $name"
+  done
+
+  # ---------- link .config/*
+  if [ -d "$DOTDIR/.config" ]; then
+    mkdir -p "$HOME/.config"
+
+    for file in "$DOTDIR/.config"/*; do
+      name="$(basename "$file")"
+      target="$HOME/.config/$name"
+
+      if [ -e "$target" ] && [ ! -L "$target" ]; then
+        echo "⚠️ $target exists (not symlink), skipping"
+        continue
+      fi
+
+      ln -sf "$file" "$target"
+      echo "→ linked .config/$name"
+    done
+  fi
+
+  echo "✅ dotfiles linked"
 else
-  echo "dotfiles folder not found in current directory, skipping copy"
+  echo "❌ dotfiles folder not found at $DOTDIR, skipping"
 fi
 
 # 1. update system and install packages (paru must be installed!)

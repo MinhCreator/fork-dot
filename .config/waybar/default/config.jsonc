@@ -6,7 +6,7 @@
 
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["tray", "hyprland/language", "network", "battery", "volume", "custom/power"],
+    "modules-right": ["tray", "hyprland/language", "network", "battery", "wireplumber"],
 
     "hyprland/workspaces": {
         "format": "<span size='larger'>{icon}</span>",
@@ -30,9 +30,8 @@
         "format": "{:%d.%m.%Y | %H:%M}"
     },
 
-    "volume": {
+    "wireplumber": {
         "format": "\udb81\udd7e  {volume}%",
-        "on-click": "sh -c 'control -V'"
         "max-volume": 100,
         "scroll-step": 5
     },
@@ -41,7 +40,6 @@
         "bat": "BAT1",
         "interval": 60,
         "format": "{icon}  {capacity}%",
-        "on-click": "sh -c 'control -B'"
         "format-icons": ["\uf244", "\uf243", "\uf242", "\uf241", "\uf240"],
     },
 
@@ -56,7 +54,6 @@
 
     "network": {
         "format": "",
-        "on-click": "sh -c 'control -w'"
         "format-ethernet": "\udb83\udc9d",
         "format-wifi": "{icon}",
         "format-disconnected": "\udb83\udc9c",
@@ -68,7 +65,6 @@
 
     "bluetooth": {
         "format": "\udb80\udcaf",
-        "on-click": "sh -c 'control -b'"
         "format-disabled": "\udb80\udcb2",
         "format-connected": "\udb80\udcb1",
         "tooltip-format": "{controller_alias}\t{controller_address}",
@@ -78,33 +74,10 @@
 
     "hyprland/language": {
         "format": "{short}"
-    },
+    },  
 
     "tray": {
         "icon-size": 16,
         "spacing": 16
     },
-
-"custom/power": {
-    "format": "{icon} ",
-    "on-click": "sh -c 'control -p'",
-    "return-type": "json",
-    "restart-interval": 1,
-    "format-icons": {
-        "quiet": "\udb80\udf2a",
-        "balanced": "\udb80\ude10",
-        "performance": "\uf427",
-        "default": "?"
-    }
-}
-
-    },
-
-    "idle_inhibitor": {
-        "format": "{icon}",
-        "format-icons": {
-            "activated": "\udb80\udd76",
-            "deactivated": "\udb83\udfaa"
-        }
-    }
 }
