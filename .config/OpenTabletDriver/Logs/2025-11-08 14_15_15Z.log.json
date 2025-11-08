@@ -1,14 +1,6 @@
 [
 {
-  "Time": "2025-10-12T17:44:41.5825141+03:00",
-  "Group": "Plugin",
-  "Message": "Loading plugin 'Temporal Resampler'",
-  "StackTrace": null,
-  "Level": 0,
-  "Notification": false
-},
-{
-  "Time": "2025-10-12T17:44:41.5966011+03:00",
+  "Time": "2025-11-08T16:15:15.252926+02:00",
   "Group": "Plugin",
   "Message": "Loading plugin 'DevocubFilters'",
   "StackTrace": null,
@@ -16,7 +8,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.5993667+03:00",
+  "Time": "2025-11-08T16:15:15.2683373+02:00",
   "Group": "Detect",
   "Message": "Searching for tablets...",
   "StackTrace": null,
@@ -24,7 +16,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6077401+03:00",
+  "Time": "2025-11-08T16:15:15.2760559+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Acepen AP1060'",
   "StackTrace": null,
@@ -32,7 +24,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6086645+03:00",
+  "Time": "2025-11-08T16:15:15.2768913+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Acepen AP906'",
   "StackTrace": null,
@@ -40,7 +32,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6086931+03:00",
+  "Time": "2025-11-08T16:15:15.276919+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Adesso Cybertablet K8'",
   "StackTrace": null,
@@ -48,7 +40,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6087098+03:00",
+  "Time": "2025-11-08T16:15:15.2769344+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Artisul A1201'",
   "StackTrace": null,
@@ -56,7 +48,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.608721+03:00",
+  "Time": "2025-11-08T16:15:15.276945+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Artisul AP604'",
   "StackTrace": null,
@@ -64,7 +56,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6087283+03:00",
+  "Time": "2025-11-08T16:15:15.2769522+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Artisul D16 Pro'",
   "StackTrace": null,
@@ -72,7 +64,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6087406+03:00",
+  "Time": "2025-11-08T16:15:15.2769633+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Artisul M0610 Pro'",
   "StackTrace": null,
@@ -80,7 +72,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6087497+03:00",
+  "Time": "2025-11-08T16:15:15.2769729+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'FlooGoo FMA100'",
   "StackTrace": null,
@@ -88,7 +80,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6087568+03:00",
+  "Time": "2025-11-08T16:15:15.2769799+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Gaomon 1060 Pro'",
   "StackTrace": null,
@@ -96,7 +88,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.608777+03:00",
+  "Time": "2025-11-08T16:15:15.2770002+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Gaomon GM116HD'",
   "StackTrace": null,
@@ -104,7 +96,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6087834+03:00",
+  "Time": "2025-11-08T16:15:15.2770196+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Gaomon GM156HD'",
   "StackTrace": null,
@@ -112,7 +104,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6087961+03:00",
+  "Time": "2025-11-08T16:15:15.2770274+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Gaomon M106K Pro'",
   "StackTrace": null,
@@ -120,7 +112,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6088045+03:00",
+  "Time": "2025-11-08T16:15:15.2770367+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Gaomon M106K'",
   "StackTrace": null,
@@ -128,7 +120,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6088153+03:00",
+  "Time": "2025-11-08T16:15:15.277049+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Gaomon M10K Pro'",
   "StackTrace": null,
@@ -136,7 +128,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6088244+03:00",
+  "Time": "2025-11-08T16:15:15.2770586+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Gaomon M10K'",
   "StackTrace": null,
@@ -144,7 +136,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6088308+03:00",
+  "Time": "2025-11-08T16:15:15.2770658+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Gaomon M1220'",
   "StackTrace": null,
@@ -152,7 +144,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6088493+03:00",
+  "Time": "2025-11-08T16:15:15.2770771+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Gaomon M1230'",
   "StackTrace": null,
@@ -160,7 +152,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6088584+03:00",
+  "Time": "2025-11-08T16:15:15.2770866+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Gaomon M6'",
   "StackTrace": null,
@@ -168,7 +160,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6088664+03:00",
+  "Time": "2025-11-08T16:15:15.2770957+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Gaomon M8 (Variant 2)'",
   "StackTrace": null,
@@ -176,7 +168,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6088782+03:00",
+  "Time": "2025-11-08T16:15:15.2771065+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Gaomon M8'",
   "StackTrace": null,
@@ -184,7 +176,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6088862+03:00",
+  "Time": "2025-11-08T16:15:15.2771135+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Gaomon PD1161'",
   "StackTrace": null,
@@ -192,7 +184,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6088929+03:00",
+  "Time": "2025-11-08T16:15:15.2771205+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Gaomon PD156 Pro'",
   "StackTrace": null,
@@ -200,7 +192,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6089047+03:00",
+  "Time": "2025-11-08T16:15:15.2771312+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Gaomon PD1560'",
   "StackTrace": null,
@@ -208,7 +200,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6089113+03:00",
+  "Time": "2025-11-08T16:15:15.2771383+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Gaomon PD1561'",
   "StackTrace": null,
@@ -216,7 +208,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6089181+03:00",
+  "Time": "2025-11-08T16:15:15.2771448+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Gaomon PD2200'",
   "StackTrace": null,
@@ -224,7 +216,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6089339+03:00",
+  "Time": "2025-11-08T16:15:15.2771563+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Gaomon S56K'",
   "StackTrace": null,
@@ -232,7 +224,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6089456+03:00",
+  "Time": "2025-11-08T16:15:15.277168+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Gaomon S620'",
   "StackTrace": null,
@@ -240,7 +232,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6089627+03:00",
+  "Time": "2025-11-08T16:15:15.277189+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Gaomon S630'",
   "StackTrace": null,
@@ -248,7 +240,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6089698+03:00",
+  "Time": "2025-11-08T16:15:15.2771966+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Gaomon S830'",
   "StackTrace": null,
@@ -256,7 +248,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6089768+03:00",
+  "Time": "2025-11-08T16:15:15.2772031+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Genius G-Pen 560'",
   "StackTrace": null,
@@ -264,7 +256,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6089837+03:00",
+  "Time": "2025-11-08T16:15:15.2772098+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Genius i405x'",
   "StackTrace": null,
@@ -272,7 +264,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6089939+03:00",
+  "Time": "2025-11-08T16:15:15.2772219+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Genius i608x'",
   "StackTrace": null,
@@ -280,7 +272,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6090028+03:00",
+  "Time": "2025-11-08T16:15:15.2772311+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion 1060 Plus'",
   "StackTrace": null,
@@ -288,7 +280,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6090091+03:00",
+  "Time": "2025-11-08T16:15:15.277238+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion 420'",
   "StackTrace": null,
@@ -296,7 +288,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6090255+03:00",
+  "Time": "2025-11-08T16:15:15.2772514+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion G10T'",
   "StackTrace": null,
@@ -304,7 +296,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6090399+03:00",
+  "Time": "2025-11-08T16:15:15.2772584+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion G930L'",
   "StackTrace": null,
@@ -312,7 +304,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6090472+03:00",
+  "Time": "2025-11-08T16:15:15.2772649+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion GC610'",
   "StackTrace": null,
@@ -320,7 +312,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6090663+03:00",
+  "Time": "2025-11-08T16:15:15.2772786+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion GT-156HD V2'",
   "StackTrace": null,
@@ -328,7 +320,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6090729+03:00",
+  "Time": "2025-11-08T16:15:15.2772856+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion GT-220 V2'",
   "StackTrace": null,
@@ -336,7 +328,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6090797+03:00",
+  "Time": "2025-11-08T16:15:15.2772947+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion GT-221 Pro'",
   "StackTrace": null,
@@ -344,7 +336,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6090913+03:00",
+  "Time": "2025-11-08T16:15:15.2773019+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion GT-221'",
   "StackTrace": null,
@@ -352,7 +344,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6090981+03:00",
+  "Time": "2025-11-08T16:15:15.2773087+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion H1060P'",
   "StackTrace": null,
@@ -360,7 +352,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6091137+03:00",
+  "Time": "2025-11-08T16:15:15.2773303+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion H1061P'",
   "StackTrace": null,
@@ -368,7 +360,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6091207+03:00",
+  "Time": "2025-11-08T16:15:15.2773381+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion H1161'",
   "StackTrace": null,
@@ -376,7 +368,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6091286+03:00",
+  "Time": "2025-11-08T16:15:15.2773472+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion H320M'",
   "StackTrace": null,
@@ -384,7 +376,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6091414+03:00",
+  "Time": "2025-11-08T16:15:15.2773621+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion H420'",
   "StackTrace": null,
@@ -392,7 +384,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6091479+03:00",
+  "Time": "2025-11-08T16:15:15.2773692+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion H420X'",
   "StackTrace": null,
@@ -400,7 +392,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6091704+03:00",
+  "Time": "2025-11-08T16:15:15.2773831+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion H430P'",
   "StackTrace": null,
@@ -408,7 +400,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6091858+03:00",
+  "Time": "2025-11-08T16:15:15.2773969+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion H580X'",
   "StackTrace": null,
@@ -416,7 +408,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6091999+03:00",
+  "Time": "2025-11-08T16:15:15.2774115+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion H610 Pro V2'",
   "StackTrace": null,
@@ -424,7 +416,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6092116+03:00",
+  "Time": "2025-11-08T16:15:15.277423+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion H610 Pro V3'",
   "StackTrace": null,
@@ -432,7 +424,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6092258+03:00",
+  "Time": "2025-11-08T16:15:15.2774362+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion H610 Pro'",
   "StackTrace": null,
@@ -440,7 +432,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6092341+03:00",
+  "Time": "2025-11-08T16:15:15.2774454+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion H610X'",
   "StackTrace": null,
@@ -448,7 +440,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6092469+03:00",
+  "Time": "2025-11-08T16:15:15.2774647+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion H640P'",
   "StackTrace": null,
@@ -456,7 +448,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6092635+03:00",
+  "Time": "2025-11-08T16:15:15.2774847+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion H641P'",
   "StackTrace": null,
@@ -464,7 +456,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6092825+03:00",
+  "Time": "2025-11-08T16:15:15.2774923+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion H642'",
   "StackTrace": null,
@@ -472,7 +464,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6092916+03:00",
+  "Time": "2025-11-08T16:15:15.2775014+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion H690'",
   "StackTrace": null,
@@ -480,7 +472,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6093037+03:00",
+  "Time": "2025-11-08T16:15:15.2775153+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion H950P'",
   "StackTrace": null,
@@ -488,7 +480,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6093307+03:00",
+  "Time": "2025-11-08T16:15:15.2775333+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion H951P'",
   "StackTrace": null,
@@ -496,7 +488,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.60934+03:00",
+  "Time": "2025-11-08T16:15:15.2775411+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion HC16'",
   "StackTrace": null,
@@ -504,7 +496,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.609349+03:00",
+  "Time": "2025-11-08T16:15:15.2775501+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion HS610'",
   "StackTrace": null,
@@ -512,7 +504,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6093649+03:00",
+  "Time": "2025-11-08T16:15:15.2775629+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion HS611'",
   "StackTrace": null,
@@ -520,7 +512,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6093746+03:00",
+  "Time": "2025-11-08T16:15:15.2775722+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion HS64'",
   "StackTrace": null,
@@ -528,7 +520,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6093941+03:00",
+  "Time": "2025-11-08T16:15:15.2775863+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion HS95'",
   "StackTrace": null,
@@ -536,7 +528,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6094006+03:00",
+  "Time": "2025-11-08T16:15:15.2775933+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Kamvas 12'",
   "StackTrace": null,
@@ -544,7 +536,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6094122+03:00",
+  "Time": "2025-11-08T16:15:15.2776003+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Kamvas 13 (Gen 3)'",
   "StackTrace": null,
@@ -552,7 +544,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6094198+03:00",
+  "Time": "2025-11-08T16:15:15.2776129+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Kamvas 13'",
   "StackTrace": null,
@@ -560,7 +552,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6094271+03:00",
+  "Time": "2025-11-08T16:15:15.2776197+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Kamvas 16 (2021)'",
   "StackTrace": null,
@@ -568,7 +560,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6094336+03:00",
+  "Time": "2025-11-08T16:15:15.2776262+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Kamvas 16'",
   "StackTrace": null,
@@ -576,7 +568,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6094449+03:00",
+  "Time": "2025-11-08T16:15:15.2776329+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Kamvas 20'",
   "StackTrace": null,
@@ -584,7 +576,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6094512+03:00",
+  "Time": "2025-11-08T16:15:15.2776511+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Kamvas 22 Plus'",
   "StackTrace": null,
@@ -592,7 +584,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6094581+03:00",
+  "Time": "2025-11-08T16:15:15.2776581+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Kamvas 22'",
   "StackTrace": null,
@@ -600,7 +592,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6094648+03:00",
+  "Time": "2025-11-08T16:15:15.2776677+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Kamvas 24 Plus'",
   "StackTrace": null,
@@ -608,7 +600,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.609475+03:00",
+  "Time": "2025-11-08T16:15:15.277679+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Kamvas Pro 12'",
   "StackTrace": null,
@@ -616,7 +608,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6094837+03:00",
+  "Time": "2025-11-08T16:15:15.277688+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Kamvas Pro 13 (2.5k)'",
   "StackTrace": null,
@@ -624,7 +616,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6094943+03:00",
+  "Time": "2025-11-08T16:15:15.2777041+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Kamvas Pro 13'",
   "StackTrace": null,
@@ -632,7 +624,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6095178+03:00",
+  "Time": "2025-11-08T16:15:15.2777219+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Kamvas Pro 16 (2.5k)'",
   "StackTrace": null,
@@ -640,7 +632,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6095271+03:00",
+  "Time": "2025-11-08T16:15:15.277731+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Kamvas Pro 16 (4k)'",
   "StackTrace": null,
@@ -648,7 +640,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6095404+03:00",
+  "Time": "2025-11-08T16:15:15.2777407+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Kamvas Pro 16 Plus (4k)'",
   "StackTrace": null,
@@ -656,7 +648,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6095471+03:00",
+  "Time": "2025-11-08T16:15:15.2777475+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Kamvas Pro 16'",
   "StackTrace": null,
@@ -664,7 +656,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6095556+03:00",
+  "Time": "2025-11-08T16:15:15.2777566+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Kamvas Pro 19 (4K)'",
   "StackTrace": null,
@@ -672,7 +664,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6095676+03:00",
+  "Time": "2025-11-08T16:15:15.2777693+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Kamvas Pro 20'",
   "StackTrace": null,
@@ -680,7 +672,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6095747+03:00",
+  "Time": "2025-11-08T16:15:15.2777777+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Kamvas Pro 22 (2019)'",
   "StackTrace": null,
@@ -688,7 +680,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6095812+03:00",
+  "Time": "2025-11-08T16:15:15.2777843+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Kamvas Pro 24 (4K)'",
   "StackTrace": null,
@@ -696,7 +688,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6095923+03:00",
+  "Time": "2025-11-08T16:15:15.2777951+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Kamvas Pro 24'",
   "StackTrace": null,
@@ -704,7 +696,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6095985+03:00",
+  "Time": "2025-11-08T16:15:15.277802+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion New 1060 Plus (2048)'",
   "StackTrace": null,
@@ -712,7 +704,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6096068+03:00",
+  "Time": "2025-11-08T16:15:15.2778112+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion New 1060 Plus'",
   "StackTrace": null,
@@ -720,7 +712,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6096208+03:00",
+  "Time": "2025-11-08T16:15:15.2778241+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Q11K V2'",
   "StackTrace": null,
@@ -728,7 +720,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6096283+03:00",
+  "Time": "2025-11-08T16:15:15.277831+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Q11K'",
   "StackTrace": null,
@@ -736,7 +728,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.609637+03:00",
+  "Time": "2025-11-08T16:15:15.2778403+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Q620M'",
   "StackTrace": null,
@@ -744,7 +736,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6096555+03:00",
+  "Time": "2025-11-08T16:15:15.2778549+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion Q630M'",
   "StackTrace": null,
@@ -752,7 +744,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6096625+03:00",
+  "Time": "2025-11-08T16:15:15.2778644+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion RDS-160'",
   "StackTrace": null,
@@ -760,7 +752,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6096685+03:00",
+  "Time": "2025-11-08T16:15:15.2778715+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion RTE-100'",
   "StackTrace": null,
@@ -768,7 +760,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6096832+03:00",
+  "Time": "2025-11-08T16:15:15.2778829+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion RTM-500'",
   "StackTrace": null,
@@ -776,7 +768,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6096926+03:00",
+  "Time": "2025-11-08T16:15:15.277892+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion RTP-700'",
   "StackTrace": null,
@@ -784,7 +776,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6097022+03:00",
+  "Time": "2025-11-08T16:15:15.2779009+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion WH1409 V2 (Variant 2)'",
   "StackTrace": null,
@@ -792,7 +784,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6097144+03:00",
+  "Time": "2025-11-08T16:15:15.2779105+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion WH1409 V2'",
   "StackTrace": null,
@@ -800,7 +792,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6097207+03:00",
+  "Time": "2025-11-08T16:15:15.2779172+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Huion WH1409'",
   "StackTrace": null,
@@ -808,7 +800,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.609727+03:00",
+  "Time": "2025-11-08T16:15:15.2779239+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'KENTING K5540'",
   "StackTrace": null,
@@ -816,7 +808,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6097382+03:00",
+  "Time": "2025-11-08T16:15:15.2779364+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'LifeTec LT9570'",
   "StackTrace": null,
@@ -824,7 +816,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6097447+03:00",
+  "Time": "2025-11-08T16:15:15.2779433+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Monoprice 10594'",
   "StackTrace": null,
@@ -832,7 +824,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6097509+03:00",
+  "Time": "2025-11-08T16:15:15.2779501+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Monoprice MP1060-HA60'",
   "StackTrace": null,
@@ -840,7 +832,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.609757+03:00",
+  "Time": "2025-11-08T16:15:15.2779566+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Parblo A609'",
   "StackTrace": null,
@@ -848,7 +840,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6097679+03:00",
+  "Time": "2025-11-08T16:15:15.2779677+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Parblo A610 Pro'",
   "StackTrace": null,
@@ -856,7 +848,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6097744+03:00",
+  "Time": "2025-11-08T16:15:15.2779775+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Parblo A610'",
   "StackTrace": null,
@@ -864,7 +856,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6097813+03:00",
+  "Time": "2025-11-08T16:15:15.2779844+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Parblo A640 V2'",
   "StackTrace": null,
@@ -872,7 +864,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6097878+03:00",
+  "Time": "2025-11-08T16:15:15.277996+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Parblo A640'",
   "StackTrace": null,
@@ -880,7 +872,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6097995+03:00",
+  "Time": "2025-11-08T16:15:15.2780031+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Parblo Intangbo M'",
   "StackTrace": null,
@@ -888,7 +880,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6098084+03:00",
+  "Time": "2025-11-08T16:15:15.2780121+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Parblo Intangbo S'",
   "StackTrace": null,
@@ -896,7 +888,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6098195+03:00",
+  "Time": "2025-11-08T16:15:15.2780249+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Parblo Ninos M'",
   "StackTrace": null,
@@ -904,7 +896,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6098284+03:00",
+  "Time": "2025-11-08T16:15:15.2780337+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Parblo Ninos N4'",
   "StackTrace": null,
@@ -912,7 +904,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.609835+03:00",
+  "Time": "2025-11-08T16:15:15.2780407+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Parblo Ninos N7'",
   "StackTrace": null,
@@ -920,7 +912,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6098529+03:00",
+  "Time": "2025-11-08T16:15:15.281338+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Parblo Ninos N7B'",
   "StackTrace": null,
@@ -928,7 +920,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6098601+03:00",
+  "Time": "2025-11-08T16:15:15.2813651+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Parblo Ninos S'",
   "StackTrace": null,
@@ -936,7 +928,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.609875+03:00",
+  "Time": "2025-11-08T16:15:15.2813763+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'RobotPen T9A'",
   "StackTrace": null,
@@ -944,7 +936,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6098854+03:00",
+  "Time": "2025-11-08T16:15:15.2813837+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Trust Flex Design Tablet'",
   "StackTrace": null,
@@ -952,7 +944,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6098923+03:00",
+  "Time": "2025-11-08T16:15:15.28139+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Turcom TS-6580'",
   "StackTrace": null,
@@ -960,7 +952,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6099052+03:00",
+  "Time": "2025-11-08T16:15:15.2813991+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'UC-Logic 1060N'",
   "StackTrace": null,
@@ -968,7 +960,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6099115+03:00",
+  "Time": "2025-11-08T16:15:15.2814074+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'UC-Logic PF1209'",
   "StackTrace": null,
@@ -976,7 +968,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6099215+03:00",
+  "Time": "2025-11-08T16:15:15.281414+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'UGEE M708 V2'",
   "StackTrace": null,
@@ -984,7 +976,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6099337+03:00",
+  "Time": "2025-11-08T16:15:15.2814236+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'UGEE M708'",
   "StackTrace": null,
@@ -992,7 +984,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6099404+03:00",
+  "Time": "2025-11-08T16:15:15.28143+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'UGEE M808'",
   "StackTrace": null,
@@ -1000,7 +992,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6099469+03:00",
+  "Time": "2025-11-08T16:15:15.2814364+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'UGEE M908'",
   "StackTrace": null,
@@ -1008,7 +1000,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6099537+03:00",
+  "Time": "2025-11-08T16:15:15.281443+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'UGEE S1060'",
   "StackTrace": null,
@@ -1016,7 +1008,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6099604+03:00",
+  "Time": "2025-11-08T16:15:15.2814504+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'UGEE S640'",
   "StackTrace": null,
@@ -1024,7 +1016,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6139719+03:00",
+  "Time": "2025-11-08T16:15:15.281459+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'UGEE U1200'",
   "StackTrace": null,
@@ -1032,7 +1024,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6140128+03:00",
+  "Time": "2025-11-08T16:15:15.2814655+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'UGEE U1600'",
   "StackTrace": null,
@@ -1040,7 +1032,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6140201+03:00",
+  "Time": "2025-11-08T16:15:15.2814728+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'VEIKK A15 Pro'",
   "StackTrace": null,
@@ -1048,7 +1040,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6140363+03:00",
+  "Time": "2025-11-08T16:15:15.2814821+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'VEIKK A15 V2'",
   "StackTrace": null,
@@ -1056,7 +1048,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6140423+03:00",
+  "Time": "2025-11-08T16:15:15.2814886+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'VEIKK A15'",
   "StackTrace": null,
@@ -1064,7 +1056,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6140491+03:00",
+  "Time": "2025-11-08T16:15:15.2814954+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'VEIKK A30 V2'",
   "StackTrace": null,
@@ -1072,7 +1064,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6140552+03:00",
+  "Time": "2025-11-08T16:15:15.2815018+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'VEIKK A30'",
   "StackTrace": null,
@@ -1080,7 +1072,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6140614+03:00",
+  "Time": "2025-11-08T16:15:15.2815083+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'VEIKK A50 (Variant 2)'",
   "StackTrace": null,
@@ -1088,7 +1080,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6140674+03:00",
+  "Time": "2025-11-08T16:15:15.2815152+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'VEIKK A50'",
   "StackTrace": null,
@@ -1096,7 +1088,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6140757+03:00",
+  "Time": "2025-11-08T16:15:15.2815238+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'VEIKK S640 V2'",
   "StackTrace": null,
@@ -1104,7 +1096,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6140826+03:00",
+  "Time": "2025-11-08T16:15:15.2815305+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'VEIKK S640'",
   "StackTrace": null,
@@ -1112,7 +1104,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6140884+03:00",
+  "Time": "2025-11-08T16:15:15.2815377+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'VEIKK VK1060'",
   "StackTrace": null,
@@ -1120,7 +1112,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6140953+03:00",
+  "Time": "2025-11-08T16:15:15.2815442+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'VEIKK VK1060PRO'",
   "StackTrace": null,
@@ -1128,7 +1120,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6141013+03:00",
+  "Time": "2025-11-08T16:15:15.2815506+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'VEIKK VK430 V2'",
   "StackTrace": null,
@@ -1136,7 +1128,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6141072+03:00",
+  "Time": "2025-11-08T16:15:15.2815567+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'VEIKK VK430'",
   "StackTrace": null,
@@ -1144,7 +1136,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.614116+03:00",
+  "Time": "2025-11-08T16:15:15.2815658+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'VEIKK VK640'",
   "StackTrace": null,
@@ -1152,7 +1144,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6141227+03:00",
+  "Time": "2025-11-08T16:15:15.2815731+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'VEIKK Voila (VO1060)'",
   "StackTrace": null,
@@ -1160,7 +1152,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6141294+03:00",
+  "Time": "2025-11-08T16:15:15.2815796+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'ViewSonic Woodpad PF0730'",
   "StackTrace": null,
@@ -1168,7 +1160,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6141358+03:00",
+  "Time": "2025-11-08T16:15:15.281586+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'ViewSonic Woodpad PF1030'",
   "StackTrace": null,
@@ -1176,7 +1168,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6141438+03:00",
+  "Time": "2025-11-08T16:15:15.2815923+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTC-4110WL'",
   "StackTrace": null,
@@ -1184,7 +1176,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6141501+03:00",
+  "Time": "2025-11-08T16:15:15.2815988+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTC-6110WL'",
   "StackTrace": null,
@@ -1192,7 +1184,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6141578+03:00",
+  "Time": "2025-11-08T16:15:15.2816076+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTE-430'",
   "StackTrace": null,
@@ -1200,7 +1192,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6141669+03:00",
+  "Time": "2025-11-08T16:15:15.2818642+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTE-440'",
   "StackTrace": null,
@@ -1208,7 +1200,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6141783+03:00",
+  "Time": "2025-11-08T16:15:15.2818838+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTE-450'",
   "StackTrace": null,
@@ -1216,7 +1208,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6141848+03:00",
+  "Time": "2025-11-08T16:15:15.2818909+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTE-460'",
   "StackTrace": null,
@@ -1224,7 +1216,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6141925+03:00",
+  "Time": "2025-11-08T16:15:15.2819+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTE-630'",
   "StackTrace": null,
@@ -1232,7 +1224,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6142012+03:00",
+  "Time": "2025-11-08T16:15:15.281909+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTE-640'",
   "StackTrace": null,
@@ -1240,7 +1232,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.61421+03:00",
+  "Time": "2025-11-08T16:15:15.281918+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTE-650'",
   "StackTrace": null,
@@ -1248,7 +1240,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6142164+03:00",
+  "Time": "2025-11-08T16:15:15.2819251+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTE-660'",
   "StackTrace": null,
@@ -1256,7 +1248,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6142225+03:00",
+  "Time": "2025-11-08T16:15:15.2819316+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTF-430'",
   "StackTrace": null,
@@ -1264,7 +1256,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6142284+03:00",
+  "Time": "2025-11-08T16:15:15.281938+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTH-300'",
   "StackTrace": null,
@@ -1272,7 +1264,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6142343+03:00",
+  "Time": "2025-11-08T16:15:15.2819453+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTH-301'",
   "StackTrace": null,
@@ -1280,7 +1272,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6142405+03:00",
+  "Time": "2025-11-08T16:15:15.2819518+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTH-460'",
   "StackTrace": null,
@@ -1288,7 +1280,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6142497+03:00",
+  "Time": "2025-11-08T16:15:15.2819635+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTH-461'",
   "StackTrace": null,
@@ -1296,7 +1288,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6142616+03:00",
+  "Time": "2025-11-08T16:15:15.2819768+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTH-470'",
   "StackTrace": null,
@@ -1304,7 +1296,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6142701+03:00",
+  "Time": "2025-11-08T16:15:15.281986+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTH-480'",
   "StackTrace": null,
@@ -1312,7 +1304,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.614279+03:00",
+  "Time": "2025-11-08T16:15:15.2819948+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTH-490'",
   "StackTrace": null,
@@ -1320,7 +1312,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6142868+03:00",
+  "Time": "2025-11-08T16:15:15.2820041+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTH-661'",
   "StackTrace": null,
@@ -1328,7 +1320,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6142996+03:00",
+  "Time": "2025-11-08T16:15:15.2820179+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTH-670'",
   "StackTrace": null,
@@ -1336,7 +1328,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.614309+03:00",
+  "Time": "2025-11-08T16:15:15.282027+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTH-680'",
   "StackTrace": null,
@@ -1344,7 +1336,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6143172+03:00",
+  "Time": "2025-11-08T16:15:15.282036+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTH-690'",
   "StackTrace": null,
@@ -1352,7 +1344,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6143256+03:00",
+  "Time": "2025-11-08T16:15:15.282045+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTL-4100'",
   "StackTrace": null,
@@ -1360,7 +1352,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6143334+03:00",
+  "Time": "2025-11-08T16:15:15.2820539+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTL-4100WL'",
   "StackTrace": null,
@@ -1368,7 +1360,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6143514+03:00",
+  "Time": "2025-11-08T16:15:15.2820748+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTL-460'",
   "StackTrace": null,
@@ -1376,7 +1368,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6143597+03:00",
+  "Time": "2025-11-08T16:15:15.2820839+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTL-470'",
   "StackTrace": null,
@@ -1384,7 +1376,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6143681+03:00",
+  "Time": "2025-11-08T16:15:15.2820929+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTL-471'",
   "StackTrace": null,
@@ -1392,7 +1384,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6143771+03:00",
+  "Time": "2025-11-08T16:15:15.2821017+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTL-472'",
   "StackTrace": null,
@@ -1400,7 +1392,39 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6143852+03:00",
+  "Time": "2025-11-08T16:15:15.4668876+02:00",
+  "Group": "Device",
+  "Message": "Initializing device 'CTL-472' /sys/devices/pci0000:00/0000:00:08.1/0000:05:00.4/usb3/3-2/3-2.1/3-2.1:1.0/0003:056A:037A.0004/hidraw/hidraw3",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-11-08T16:15:15.4670251+02:00",
+  "Group": "Device",
+  "Message": "Using report parser type 'OpenTabletDriver.Configurations.Parsers.Wacom.Intuos.IntuosReportParser'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-11-08T16:15:15.4697398+02:00",
+  "Group": "Device",
+  "Message": "Set device feature: 02-02",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-11-08T16:15:15.4700669+02:00",
+  "Group": "Detect",
+  "Message": "Found tablet 'Wacom CTL-472'",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-11-08T16:15:15.4712359+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTL-480'",
   "StackTrace": null,
@@ -1408,7 +1432,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6143931+03:00",
+  "Time": "2025-11-08T16:15:15.4712788+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTL-490'",
   "StackTrace": null,
@@ -1416,7 +1440,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6144008+03:00",
+  "Time": "2025-11-08T16:15:15.4712957+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTL-6100'",
   "StackTrace": null,
@@ -1424,7 +1448,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6144067+03:00",
+  "Time": "2025-11-08T16:15:15.4713058+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTL-6100WL'",
   "StackTrace": null,
@@ -1432,7 +1456,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6144157+03:00",
+  "Time": "2025-11-08T16:15:15.4713211+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTL-671'",
   "StackTrace": null,
@@ -1440,7 +1464,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6144231+03:00",
+  "Time": "2025-11-08T16:15:15.4713356+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTL-672'",
   "StackTrace": null,
@@ -1448,7 +1472,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6144315+03:00",
+  "Time": "2025-11-08T16:15:15.4713498+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTL-680'",
   "StackTrace": null,
@@ -1456,7 +1480,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6144387+03:00",
+  "Time": "2025-11-08T16:15:15.4713648+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom CTL-690'",
   "StackTrace": null,
@@ -1464,7 +1488,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6144468+03:00",
+  "Time": "2025-11-08T16:15:15.4713818+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom DTC-133'",
   "StackTrace": null,
@@ -1472,7 +1496,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.614456+03:00",
+  "Time": "2025-11-08T16:15:15.4713955+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom DTH-1320'",
   "StackTrace": null,
@@ -1480,7 +1504,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6144622+03:00",
+  "Time": "2025-11-08T16:15:15.4714056+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom Movink 13 (DTH-135)'",
   "StackTrace": null,
@@ -1488,7 +1512,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6144704+03:00",
+  "Time": "2025-11-08T16:15:15.4714166+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom Cintiq Pro 27 (DTH-271)'",
   "StackTrace": null,
@@ -1496,7 +1520,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6144772+03:00",
+  "Time": "2025-11-08T16:15:15.4714267+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom Cintiq 13HD (DTK-1300)'",
   "StackTrace": null,
@@ -1504,7 +1528,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6144832+03:00",
+  "Time": "2025-11-08T16:15:15.4714366+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom Cintiq 16 (DTK1660)'",
   "StackTrace": null,
@@ -1512,7 +1536,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6144914+03:00",
+  "Time": "2025-11-08T16:15:15.4714505+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom Cintiq 22HD (DTK-2200)'",
   "StackTrace": null,
@@ -1520,7 +1544,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6145+03:00",
+  "Time": "2025-11-08T16:15:15.4714644+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom Cintiq 12WX (DTZ-1200W)'",
   "StackTrace": null,
@@ -1528,7 +1552,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6145065+03:00",
+  "Time": "2025-11-08T16:15:15.4714744+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom ET-0405-U'",
   "StackTrace": null,
@@ -1536,7 +1560,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6145153+03:00",
+  "Time": "2025-11-08T16:15:15.4714885+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom ET-0405A-U'",
   "StackTrace": null,
@@ -1544,7 +1568,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6145225+03:00",
+  "Time": "2025-11-08T16:15:15.4715018+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom FT-0405-U'",
   "StackTrace": null,
@@ -1552,7 +1576,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6145308+03:00",
+  "Time": "2025-11-08T16:15:15.4715171+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom GD-0405-U'",
   "StackTrace": null,
@@ -1560,7 +1584,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6145382+03:00",
+  "Time": "2025-11-08T16:15:15.4715339+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom GD-0608-U'",
   "StackTrace": null,
@@ -1568,7 +1592,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.614546+03:00",
+  "Time": "2025-11-08T16:15:15.4715476+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom GD-0912-U'",
   "StackTrace": null,
@@ -1576,7 +1600,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6145537+03:00",
+  "Time": "2025-11-08T16:15:15.4715615+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom GD-1212-U'",
   "StackTrace": null,
@@ -1584,7 +1608,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6145631+03:00",
+  "Time": "2025-11-08T16:15:15.4715755+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom GD-1218-U'",
   "StackTrace": null,
@@ -1592,7 +1616,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6145715+03:00",
+  "Time": "2025-11-08T16:15:15.4715889+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom MTE-450'",
   "StackTrace": null,
@@ -1600,7 +1624,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6145805+03:00",
+  "Time": "2025-11-08T16:15:15.4716025+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTH-450'",
   "StackTrace": null,
@@ -1608,7 +1632,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6145878+03:00",
+  "Time": "2025-11-08T16:15:15.4716159+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTH-451'",
   "StackTrace": null,
@@ -1616,7 +1640,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6145955+03:00",
+  "Time": "2025-11-08T16:15:15.4716293+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTH-460'",
   "StackTrace": null,
@@ -1624,7 +1648,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6146055+03:00",
+  "Time": "2025-11-08T16:15:15.4716574+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTH-650'",
   "StackTrace": null,
@@ -1632,7 +1656,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6146142+03:00",
+  "Time": "2025-11-08T16:15:15.4716734+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTH-651'",
   "StackTrace": null,
@@ -1640,7 +1664,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6146222+03:00",
+  "Time": "2025-11-08T16:15:15.4716832+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTH-660'",
   "StackTrace": null,
@@ -1648,7 +1672,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6146298+03:00",
+  "Time": "2025-11-08T16:15:15.4716944+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTH-850'",
   "StackTrace": null,
@@ -1656,7 +1680,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6146378+03:00",
+  "Time": "2025-11-08T16:15:15.4717043+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTH-851'",
   "StackTrace": null,
@@ -1664,7 +1688,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6146462+03:00",
+  "Time": "2025-11-08T16:15:15.4717138+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTH-860'",
   "StackTrace": null,
@@ -1672,7 +1696,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6146554+03:00",
+  "Time": "2025-11-08T16:15:15.4717238+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTK-1240'",
   "StackTrace": null,
@@ -1680,7 +1704,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6146632+03:00",
+  "Time": "2025-11-08T16:15:15.471733+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTK-440'",
   "StackTrace": null,
@@ -1688,7 +1712,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6146724+03:00",
+  "Time": "2025-11-08T16:15:15.471743+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTK-450'",
   "StackTrace": null,
@@ -1696,7 +1720,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6146809+03:00",
+  "Time": "2025-11-08T16:15:15.4717526+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTK-540WL'",
   "StackTrace": null,
@@ -1704,7 +1728,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6146899+03:00",
+  "Time": "2025-11-08T16:15:15.4717623+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTK-640'",
   "StackTrace": null,
@@ -1712,7 +1736,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6146977+03:00",
+  "Time": "2025-11-08T16:15:15.4717711+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTK-650'",
   "StackTrace": null,
@@ -1720,7 +1744,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6147117+03:00",
+  "Time": "2025-11-08T16:15:15.4717808+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTK-840'",
   "StackTrace": null,
@@ -1728,7 +1752,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6147214+03:00",
+  "Time": "2025-11-08T16:15:15.4717902+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTU-600U'",
   "StackTrace": null,
@@ -1736,7 +1760,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6147284+03:00",
+  "Time": "2025-11-08T16:15:15.4717971+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTZ-1230'",
   "StackTrace": null,
@@ -1744,7 +1768,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6147373+03:00",
+  "Time": "2025-11-08T16:15:15.4718071+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTZ-1231W'",
   "StackTrace": null,
@@ -1752,7 +1776,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6147446+03:00",
+  "Time": "2025-11-08T16:15:15.4718167+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTZ-430'",
   "StackTrace": null,
@@ -1760,7 +1784,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6147532+03:00",
+  "Time": "2025-11-08T16:15:15.4718266+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTZ-431W'",
   "StackTrace": null,
@@ -1768,7 +1792,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6147607+03:00",
+  "Time": "2025-11-08T16:15:15.471836+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTZ-630'",
   "StackTrace": null,
@@ -1776,7 +1800,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6147696+03:00",
+  "Time": "2025-11-08T16:15:15.4718462+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTZ-631W'",
   "StackTrace": null,
@@ -1784,7 +1808,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6147787+03:00",
+  "Time": "2025-11-08T16:15:15.4718556+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom PTZ-930'",
   "StackTrace": null,
@@ -1792,7 +1816,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6147868+03:00",
+  "Time": "2025-11-08T16:15:15.4718651+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom XD-0405-U'",
   "StackTrace": null,
@@ -1800,7 +1824,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.614795+03:00",
+  "Time": "2025-11-08T16:15:15.4718748+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom XD-0608-U'",
   "StackTrace": null,
@@ -1808,7 +1832,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6148028+03:00",
+  "Time": "2025-11-08T16:15:15.4718843+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom XD-0912-U'",
   "StackTrace": null,
@@ -1816,7 +1840,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6148114+03:00",
+  "Time": "2025-11-08T16:15:15.4718946+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom XD-1212-U'",
   "StackTrace": null,
@@ -1824,7 +1848,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6148205+03:00",
+  "Time": "2025-11-08T16:15:15.4719037+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Wacom XD-1218-U'",
   "StackTrace": null,
@@ -1832,7 +1856,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6148295+03:00",
+  "Time": "2025-11-08T16:15:15.4719135+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'Waltop Slim Tablet 5.8\"'",
   "StackTrace": null,
@@ -1840,7 +1864,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.614836+03:00",
+  "Time": "2025-11-08T16:15:15.4719203+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XenceLabs Pen Tablet Medium'",
   "StackTrace": null,
@@ -1848,7 +1872,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6148437+03:00",
+  "Time": "2025-11-08T16:15:15.4719293+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XenceLabs Pen Tablet Small'",
   "StackTrace": null,
@@ -1856,7 +1880,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6148508+03:00",
+  "Time": "2025-11-08T16:15:15.4719371+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XENX P1-640'",
   "StackTrace": null,
@@ -1864,7 +1888,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6148573+03:00",
+  "Time": "2025-11-08T16:15:15.4719439+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XENX P3-1060'",
   "StackTrace": null,
@@ -1872,7 +1896,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6148636+03:00",
+  "Time": "2025-11-08T16:15:15.4719511+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XENX X1-640'",
   "StackTrace": null,
@@ -1880,7 +1904,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6148702+03:00",
+  "Time": "2025-11-08T16:15:15.4719585+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Artist 10 (2nd Gen)'",
   "StackTrace": null,
@@ -1888,7 +1912,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6148765+03:00",
+  "Time": "2025-11-08T16:15:15.4719654+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Artist 10S'",
   "StackTrace": null,
@@ -1896,7 +1920,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6148829+03:00",
+  "Time": "2025-11-08T16:15:15.4719724+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Artist 12 (2nd Gen)'",
   "StackTrace": null,
@@ -1904,7 +1928,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6148894+03:00",
+  "Time": "2025-11-08T16:15:15.4719792+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Artist 12 Pro'",
   "StackTrace": null,
@@ -1912,7 +1936,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6148966+03:00",
+  "Time": "2025-11-08T16:15:15.4719867+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Artist 12'",
   "StackTrace": null,
@@ -1920,7 +1944,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6149027+03:00",
+  "Time": "2025-11-08T16:15:15.4719959+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Artist 13 (2nd Gen)'",
   "StackTrace": null,
@@ -1928,7 +1952,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.614909+03:00",
+  "Time": "2025-11-08T16:15:15.4720046+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Artist 13.3 Pro'",
   "StackTrace": null,
@@ -1936,7 +1960,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6149156+03:00",
+  "Time": "2025-11-08T16:15:15.472012+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Artist 13.3'",
   "StackTrace": null,
@@ -1944,7 +1968,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6149223+03:00",
+  "Time": "2025-11-08T16:15:15.4720188+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Artist 15.6 Pro'",
   "StackTrace": null,
@@ -1952,7 +1976,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6149283+03:00",
+  "Time": "2025-11-08T16:15:15.4720254+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Artist 15.6'",
   "StackTrace": null,
@@ -1960,7 +1984,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6149357+03:00",
+  "Time": "2025-11-08T16:15:15.4720353+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Artist 16 (2nd Gen)'",
   "StackTrace": null,
@@ -1968,7 +1992,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6149421+03:00",
+  "Time": "2025-11-08T16:15:15.4720421+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Artist 16 Pro'",
   "StackTrace": null,
@@ -1976,7 +2000,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6149479+03:00",
+  "Time": "2025-11-08T16:15:15.472049+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Artist 16'",
   "StackTrace": null,
@@ -1984,7 +2008,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6149538+03:00",
+  "Time": "2025-11-08T16:15:15.4720565+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Artist 22 (2nd Gen)'",
   "StackTrace": null,
@@ -1992,7 +2016,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6149608+03:00",
+  "Time": "2025-11-08T16:15:15.4720638+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Artist 22HD'",
   "StackTrace": null,
@@ -2000,7 +2024,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.614969+03:00",
+  "Time": "2025-11-08T16:15:15.4720704+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Artist 24 Pro'",
   "StackTrace": null,
@@ -2008,7 +2032,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.614976+03:00",
+  "Time": "2025-11-08T16:15:15.4720771+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Artist 24'",
   "StackTrace": null,
@@ -2016,7 +2040,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6149873+03:00",
+  "Time": "2025-11-08T16:15:15.472084+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Artist Pro 16 (Gen2)'",
   "StackTrace": null,
@@ -2024,7 +2048,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6149934+03:00",
+  "Time": "2025-11-08T16:15:15.4720919+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Artist Pro 16TP'",
   "StackTrace": null,
@@ -2032,7 +2056,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6150008+03:00",
+  "Time": "2025-11-08T16:15:15.4720989+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen CT1060'",
   "StackTrace": null,
@@ -2040,7 +2064,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6150079+03:00",
+  "Time": "2025-11-08T16:15:15.4721055+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen CT430'",
   "StackTrace": null,
@@ -2048,7 +2072,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6150157+03:00",
+  "Time": "2025-11-08T16:15:15.4721152+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen CT640'",
   "StackTrace": null,
@@ -2056,7 +2080,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6150302+03:00",
+  "Time": "2025-11-08T16:15:15.4721241+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Deco 01 V2 (Variant 2)'",
   "StackTrace": null,
@@ -2064,7 +2088,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6150382+03:00",
+  "Time": "2025-11-08T16:15:15.472134+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Deco 01 V2'",
   "StackTrace": null,
@@ -2072,7 +2096,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6150466+03:00",
+  "Time": "2025-11-08T16:15:15.4721428+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Deco 01 V3'",
   "StackTrace": null,
@@ -2080,7 +2104,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6150531+03:00",
+  "Time": "2025-11-08T16:15:15.4721494+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Deco 01'",
   "StackTrace": null,
@@ -2088,7 +2112,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.615059+03:00",
+  "Time": "2025-11-08T16:15:15.4721568+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Deco 02'",
   "StackTrace": null,
@@ -2096,7 +2120,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6150648+03:00",
+  "Time": "2025-11-08T16:15:15.4721635+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Deco 03'",
   "StackTrace": null,
@@ -2104,7 +2128,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6150714+03:00",
+  "Time": "2025-11-08T16:15:15.4721764+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Deco L'",
   "StackTrace": null,
@@ -2112,7 +2136,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6150773+03:00",
+  "Time": "2025-11-08T16:15:15.4721877+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Deco M'",
   "StackTrace": null,
@@ -2120,7 +2144,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6150833+03:00",
+  "Time": "2025-11-08T16:15:15.4721952+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Deco mini4'",
   "StackTrace": null,
@@ -2128,7 +2152,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6150914+03:00",
+  "Time": "2025-11-08T16:15:15.4722038+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Deco mini7 V2'",
   "StackTrace": null,
@@ -2136,7 +2160,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6150972+03:00",
+  "Time": "2025-11-08T16:15:15.4722109+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Deco mini7'",
   "StackTrace": null,
@@ -2144,7 +2168,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6151088+03:00",
+  "Time": "2025-11-08T16:15:15.4722248+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Deco Pro LW Gen2'",
   "StackTrace": null,
@@ -2152,7 +2176,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6151147+03:00",
+  "Time": "2025-11-08T16:15:15.4722351+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Deco Pro Medium'",
   "StackTrace": null,
@@ -2160,7 +2184,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6151209+03:00",
+  "Time": "2025-11-08T16:15:15.4722439+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Deco Pro Small'",
   "StackTrace": null,
@@ -2168,7 +2192,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6151283+03:00",
+  "Time": "2025-11-08T16:15:15.4722508+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Deco Pro SW'",
   "StackTrace": null,
@@ -2176,7 +2200,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6151349+03:00",
+  "Time": "2025-11-08T16:15:15.4722575+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Deco Pro XLW Gen2'",
   "StackTrace": null,
@@ -2184,7 +2208,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6151412+03:00",
+  "Time": "2025-11-08T16:15:15.4722647+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Innovator 16'",
   "StackTrace": null,
@@ -2192,7 +2216,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.615147+03:00",
+  "Time": "2025-11-08T16:15:15.4722717+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Star 02'",
   "StackTrace": null,
@@ -2200,7 +2224,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6151533+03:00",
+  "Time": "2025-11-08T16:15:15.4722786+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Star 03 Pro'",
   "StackTrace": null,
@@ -2208,7 +2232,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6151591+03:00",
+  "Time": "2025-11-08T16:15:15.472285+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Star 03'",
   "StackTrace": null,
@@ -2216,7 +2240,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6151697+03:00",
+  "Time": "2025-11-08T16:15:15.4722972+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Star 05 V3'",
   "StackTrace": null,
@@ -2224,7 +2248,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6151766+03:00",
+  "Time": "2025-11-08T16:15:15.4723045+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Star 06'",
   "StackTrace": null,
@@ -2232,7 +2256,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6151827+03:00",
+  "Time": "2025-11-08T16:15:15.4723117+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Star 06C'",
   "StackTrace": null,
@@ -2240,7 +2264,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6151884+03:00",
+  "Time": "2025-11-08T16:15:15.4723187+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Star G430'",
   "StackTrace": null,
@@ -2248,7 +2272,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.615197+03:00",
+  "Time": "2025-11-08T16:15:15.4723277+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Star G430S V2'",
   "StackTrace": null,
@@ -2256,7 +2280,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6152038+03:00",
+  "Time": "2025-11-08T16:15:15.4723352+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Star G430S'",
   "StackTrace": null,
@@ -2264,7 +2288,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6152129+03:00",
+  "Time": "2025-11-08T16:15:15.4723442+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Star G540 Pro'",
   "StackTrace": null,
@@ -2272,7 +2296,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.615225+03:00",
+  "Time": "2025-11-08T16:15:15.4723511+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Star G540'",
   "StackTrace": null,
@@ -2280,7 +2304,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6152314+03:00",
+  "Time": "2025-11-08T16:15:15.4723582+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Star G640 (Variant 2)'",
   "StackTrace": null,
@@ -2288,7 +2312,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6152385+03:00",
+  "Time": "2025-11-08T16:15:15.4723649+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Star G640'",
   "StackTrace": null,
@@ -2296,7 +2320,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6152463+03:00",
+  "Time": "2025-11-08T16:15:15.4723739+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Star G640S'",
   "StackTrace": null,
@@ -2304,7 +2328,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6152569+03:00",
+  "Time": "2025-11-08T16:15:15.4723856+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Star G960'",
   "StackTrace": null,
@@ -2312,7 +2336,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6152639+03:00",
+  "Time": "2025-11-08T16:15:15.4723926+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Star G960S Plus'",
   "StackTrace": null,
@@ -2320,7 +2344,7 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.615272+03:00",
+  "Time": "2025-11-08T16:15:15.4724017+02:00",
   "Group": "Detect",
   "Message": "Searching for tablet 'XP-Pen Star G960S'",
   "StackTrace": null,
@@ -2328,9 +2352,73 @@
   "Notification": false
 },
 {
-  "Time": "2025-10-12T17:44:41.6160781+03:00",
-  "Group": "Detect",
-  "Message": "No tablets were detected.",
+  "Time": "2025-11-08T16:15:15.5220944+02:00",
+  "Group": "Evdev",
+  "Message": "Successfully initialized virtual pressure sensitive tablet. (code NONE)",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-11-08T16:15:15.524391+02:00",
+  "Group": "Wacom CTL-472",
+  "Message": "Output mode: Artist Mode",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-11-08T16:15:15.5270219+02:00",
+  "Group": "Wacom CTL-472",
+  "Message": "Display area: [1920x1080@<960, 540>:0°],",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-11-08T16:15:15.5271526+02:00",
+  "Group": "Wacom CTL-472",
+  "Message": "Tablet area: [66x44@<119, 22>:0°],",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-11-08T16:15:15.5272193+02:00",
+  "Group": "Wacom CTL-472",
+  "Message": "Clipping: Enabled",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-11-08T16:15:15.5273045+02:00",
+  "Group": "Wacom CTL-472",
+  "Message": "Ignoring reports outside area: Disabled",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-11-08T16:15:15.5313182+02:00",
+  "Group": "Wacom CTL-472",
+  "Message": "Tip Binding: [Mouse Button Binding: Left]@1%",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-11-08T16:15:15.5389193+02:00",
+  "Group": "Wacom CTL-472",
+  "Message": "Filters: TabletDriverFilters.Devocub.Antichatter",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-11-08T16:15:15.5389402+02:00",
+  "Group": "Settings",
+  "Message": "Driver is enabled.",
   "StackTrace": null,
   "Level": 1,
   "Notification": false
