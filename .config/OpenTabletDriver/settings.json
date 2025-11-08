@@ -130,16 +130,16 @@
               "Value": 3.0
             },
             {
-              "Property": "Latency",
-              "Value": 10.0
-            },
-            {
               "Property": "Frequency",
               "Value": 500.0
             },
             {
               "Property": "PredictionEnabled",
               "Value": false
+            },
+            {
+              "Property": "Latency",
+              "Value": 10.0
             }
           ],
           "Enable": true
