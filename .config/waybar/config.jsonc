@@ -2,11 +2,11 @@
     "layer": "top",
     "position": "top",
     "height": 24,
-    "spacing": 5,
+    "spacing": 2,
 
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["tray", "hyprland/language", "network", "battery", "wireplumber"],
+    "modules-right": ["tray", "battery", "network", "hyprland/language", "wireplumber"],
 
     "hyprland/workspaces": {
         "format": "<span size='larger'>{icon}</span>",
@@ -27,19 +27,23 @@
     },
 
     "clock": {
-        "format": "{:%d.%m.%Y | %H:%M}"
+        "interval": 1,
+        "format": "{:%H:%M:%S}",
+        "hover-format": "{:%d.%m.%Y}"
     },
 
     "wireplumber": {
         "format": "\udb81\udd7e  {volume}%",
-        "max-volume": 100,
+        "on-click": "control --volume",
+        "max-volume": 150,
         "scroll-step": 5
     },
 
     "battery": {
         "bat": "BAT1",
         "interval": 60,
-        "format": "{icon}  {capacity}%",
+        "format": "{icon} ",
+        "on-click": "control --battery",
         "format-icons": ["\uf244", "\uf243", "\uf242", "\uf241", "\uf240"],
     },
 
@@ -54,17 +58,19 @@
 
     "network": {
         "format": "",
+        "on-click": "control --wifi",
         "format-ethernet": "\udb83\udc9d",
-        "format-wifi": "{icon}",
+        "format-wifi": "{icon} ",
         "format-disconnected": "\udb83\udc9c",
         "format-icons": ["\udb82\udd2f", "\udb82\udd1f", "\udb82\udd22", "\udb82\udd25", "\udb82\udd28"],
         "tooltip-format-wifi": "{essid} ({signalStrength}%)",
         "tooltip-format-ethernet": "{ifname}",
-        "tooltip-format-disconnected": "Disconnected",
+        "tooltip-format-disconnected": "disconnected",
     },
 
     "bluetooth": {
         "format": "\udb80\udcaf",
+        "on-click": "control --bluetooth",
         "format-disabled": "\udb80\udcb2",
         "format-connected": "\udb80\udcb1",
         "tooltip-format": "{controller_alias}\t{controller_address}",

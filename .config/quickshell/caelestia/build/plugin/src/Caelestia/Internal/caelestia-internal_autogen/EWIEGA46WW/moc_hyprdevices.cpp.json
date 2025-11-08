@@ -1,0 +1,246 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                },
+                {
+                    "name": "QML.Creatable",
+                    "value": "false"
+                },
+                {
+                    "name": "QML.UncreatableReason",
+                    "value": "HyprKeyboard instances can only be retrieved from a HyprDevices"
+                }
+            ],
+            "className": "HyprKeyboard",
+            "lineNumber": 10,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "lastIpcObject",
+                    "notify": "lastIpcObjectChanged",
+                    "read": "lastIpcObject",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantHash",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "address",
+                    "notify": "addressChanged",
+                    "read": "address",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "name",
+                    "notify": "nameChanged",
+                    "read": "name",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "layout",
+                    "notify": "layoutChanged",
+                    "read": "layout",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "activeKeymap",
+                    "notify": "activeKeymapChanged",
+                    "read": "activeKeymap",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "capsLock",
+                    "notify": "capsLockChanged",
+                    "read": "capsLock",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "numLock",
+                    "notify": "numLockChanged",
+                    "read": "numLock",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "main",
+                    "notify": "mainChanged",
+                    "read": "main",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "caelestia::internal::hypr::HyprKeyboard",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "lastIpcObjectChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "addressChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "nameChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "layoutChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "activeKeymapChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "name": "capsLockChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "numLockChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "name": "mainChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                },
+                {
+                    "name": "QML.Creatable",
+                    "value": "false"
+                },
+                {
+                    "name": "QML.UncreatableReason",
+                    "value": "HyprDevices instances can only be retrieved from a HyprExtras"
+                }
+            ],
+            "className": "HyprDevices",
+            "lineNumber": 52,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "keyboards",
+                    "notify": "keyboardsChanged",
+                    "read": "keyboards",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QQmlListProperty<caelestia::internal::hypr::HyprKeyboard>",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "caelestia::internal::hypr::HyprDevices",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "keyboardsChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "hyprdevices.hpp",
+    "outputRevision": 69
+}

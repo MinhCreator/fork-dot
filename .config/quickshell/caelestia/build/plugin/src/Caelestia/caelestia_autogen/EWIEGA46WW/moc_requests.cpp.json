@@ -1,0 +1,69 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                },
+                {
+                    "name": "QML.Singleton",
+                    "value": "true"
+                }
+            ],
+            "className": "Requests",
+            "lineNumber": 9,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "url",
+                            "type": "QUrl"
+                        },
+                        {
+                            "name": "callback",
+                            "type": "QJSValue"
+                        },
+                        {
+                            "name": "onError",
+                            "type": "QJSValue"
+                        }
+                    ],
+                    "index": 0,
+                    "isConst": true,
+                    "name": "get",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "url",
+                            "type": "QUrl"
+                        },
+                        {
+                            "name": "callback",
+                            "type": "QJSValue"
+                        }
+                    ],
+                    "index": 1,
+                    "isCloned": true,
+                    "isConst": true,
+                    "name": "get",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "caelestia::Requests",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "requests.hpp",
+    "outputRevision": 69
+}
