@@ -116,6 +116,14 @@ setopt AUTO_CD
 
 # Make `sudo` timeout longer
 alias sudo='sudo $(history -p !!)'
+alias ls="ls --color=auto"
+alias ll="ls -lah"
+alias grep="grep --color=auto"
+alias update="paru -Syu"
+alias ..="cd .."
+alias ...="cd ../.."
+alias connect="ssh owodray@192.168.0.107"
+alias upd="sudo nano /opt/discord/resources/build_info.json"
 
 # Case-insensitive completion
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
@@ -126,6 +134,6 @@ zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 # Forcing Zsh to auto-activate virtualenvs when using Python
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 
-neofetch
+fastfetch
 alias ayugram='/usr/bin/AyuGram'
 export PATH=/home/deridray/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl

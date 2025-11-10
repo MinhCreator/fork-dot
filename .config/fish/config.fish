@@ -2,7 +2,7 @@
 set -g fish_greeting  ""
 set -g theme_display_git no
 set -g theme_nerd_fonts yes
-neofetch
+fastfetch
 
 # ====== alias ======
 alias ls="ls --color=auto"
