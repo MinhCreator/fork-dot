@@ -27,10 +27,9 @@
     },
 
     "clock": {
-        "interval": 1,
-        "format": "{:%H:%M:%S}",
-        "hover-format": "{:%d.%m.%Y}"
-    },
+	"format": "{:%b %d %H:%M}",
+	"format-alt": "{:%A, %b %d, %Y}",
+	},
 
     "wireplumber": {
         "format": "\udb81\udd7e  {volume}%",
