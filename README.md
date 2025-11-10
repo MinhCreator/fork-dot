@@ -12,8 +12,11 @@ chmod +x ./install.sh
 # 2. manual installation
 ### packages:
 ```
-# download packages
-paru -Syu --needed --noconfirm matugen-bin ente-auth firefox alacritty thunar bspwm sxhkd hyprland hyprpaper hyprcursor hyprlock hypridle rofi polybar waybar dunst mission-center swaync neofetch visual-studio-code-bin vim neovim gamemode wine wine-mono portproton steam prismlauncher xarchiver openssh gvfs flatpak pamac mpv qimgv better-control pavucontrol discord ayugram-desktop-bin spotify spicetify-cli jdk8-openjdk jdk17-openjdk jdk21-openjdk base-devel git networkmanager btrfs-progs udiskie flameshot htop mc playerctl zsh arandr nwg-look nitrogen cava peaclock bluez blueman pipewire wireplumber pipewire-pulse pipewire-alsa xdg-desktop-portal xdg-desktop-portal-hyprland xwaylandvideobridge nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader kripton-theme-git tokyonight-gtk-theme-git tokyonight-gtk-theme-git ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts papirus-icon-theme papirus-folders bibata-cursor-theme-bin ttf-rubik-vf ttf-material-symbols-variable-git python-materialyoucolor cmake ninja libqalculate aubio libcava ttf-roboto inter-font evolution-data-server cliphist
+# required dependencies
+paru -Syu --needed --noconfirm matugen-bin firefox alacritty thunar bspwm sxhkd hyprland hyprpaper hyprcursor hyprlock hypridle rofi polybar waybar quickshell dunst mission-center swaync neofetch vim neovim nano gamemode wine wine-mono portproton xarchiver openssh gvfs flatpak pamac mpv qimgv better-control pavucontrol base-devel git networkmanager btrfs-progs udiskie flameshot htop mc playerctl zsh arandr nwg-look nwg-displays nwg-clipman nitrogen bluez blueman pipewire wireplumber pipewire-pulse pipewire-alsa xdg-desktop-portal xdg-desktop-portal-hyprland xwaylandvideobridge nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader kripton-theme-git tokyonight-gtk-theme-git ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts papirus-icon-theme papirus-folders bibata-cursor-theme-bin ttf-rubik-vf ttf-material-symbols-variable-git python-materialyoucolor cmake ninja libqalculate aubio libcava ttf-roboto inter-font evolution-data-server cliphist wl-clipboard
+
+# optional dependencies
+paru -Syu --needed --noconfirm ente-auth visual-studio-code-bin steam prismlauncher discord ayugram-desktop-bin telegram-desktop spotify spicetify-cli jdk8-openjdk jdk17-openjdk jdk21-openjdk cava peaclock obs-studio gpu-screen-recorder gpu-screen-recorder-ui
 ```
 install vencord:
 ```
