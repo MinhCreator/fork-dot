@@ -77,3 +77,7 @@ cd $ZSH/custom/plugins
 git clone https://github.com/zsh-users/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting
 ```
+### enable gsr-ui service
+```
+systemctl enable --now --user gpu-screen-recorder-ui
+```
