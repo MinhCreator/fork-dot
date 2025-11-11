@@ -1,5 +1,8 @@
 # my configs for linux(for both hyprland and bspwm)
-![hyprland](https://github.com/user-attachments/assets/f2d14697-cfa6-4c2e-944d-91ad1f1b97a0)
+<img width="1921" height="1081" alt="hyprland" src="https://github.com/user-attachments/assets/95ab5039-3544-47b0-850c-bd97b0027b65" />
+
+
+
 
 
 ### !NOTE! this configs are made for me personally, so i don't recommend you to install all things that i have
