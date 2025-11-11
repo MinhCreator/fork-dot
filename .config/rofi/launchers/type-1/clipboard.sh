@@ -16,5 +16,5 @@ theme='style-2'
 
 ## Run
 rofi \
-    -show drun \
+    -show clipboard \
     -theme ${dir}/${theme}.rasi

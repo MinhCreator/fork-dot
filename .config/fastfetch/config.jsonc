@@ -32,47 +32,47 @@
             "type": "os",
             "format": "{name}",
             "key": " ",
-            "keyColor": "33",  // = color3
+            "keyColor": "34",  // = color3
         },
         {
             "type": "wm",
             "format": "{process-name}",
             "key": " ",
-            "keyColor": "33", 
+            "keyColor": "34", 
         },
         {
             "type": "uptime",
             "format": "{hours}h {minutes}m",
             "key": " ",
-            "keyColor": "33", 
+            "keyColor": "34", 
         },
         {
             "type": "packages",
             "format": "{}",
             "key": " ",
-            "keyColor": "33",  
+            "keyColor": "34",  
         },
         {
             "type": "cpu",
             "format": "{name}",
             "key": " ",
-            "keyColor": "33", 
+            "keyColor": "34", 
         },
         {
             "type": "gpu",
             "format": "{name}",
             "key": " ",
-            "keyColor": "33",
+            "keyColor": "34",
         },
         {
             "type": "memory",
             "key": " ",
-            "keyColor": "33", 
+            "keyColor": "34", 
         },
         {
             "type": "media",
             "key": "󰝚 ",
-            "keyColor": "33", 
+            "keyColor": "34", 
         },
         "break",
         {

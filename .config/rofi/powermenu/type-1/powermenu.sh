@@ -11,26 +11,26 @@
 
 # Current Theme
 dir="$HOME/.config/rofi/powermenu/type-1"
-theme='style-5'
+theme='style-2'
 
 # CMDs
 uptime="`uptime -p | sed -e 's/up //g'`"
 host=`hostname`
 
 # Options
-shutdown=''
-reboot=''
-lock=''
-suspend=''
-logout=''
-yes=''
-no=''
+shutdown=' shutdown'
+reboot=' reboot'
+lock=' lock'
+suspend=' suspend'
+logout=' logout'
+yes=' yes'
+no=' no'
 
 # Rofi CMD
 rofi_cmd() {
 	rofi -dmenu \
 		-p "$host" \
-		-mesg "Uptime: $uptime" \
+		-mesg "uptime: $uptime" \
 		-theme ${dir}/${theme}.rasi
 }
 
@@ -54,7 +54,7 @@ confirm_exit() {
 
 # Pass variables to rofi dmenu
 run_rofi() {
-	echo -e "$lock\n$suspend\n$logout\n$reboot\n$shutdown" | rofi_cmd
+	echo -e "$lock\n$shutdown\n$reboot\n$suspend\n$logout" | rofi_cmd
 }
 
 # Execute Command
