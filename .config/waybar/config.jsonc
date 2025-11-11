@@ -101,10 +101,12 @@
     },
     "custom/powermenu": {
         "format": " \uf011  ",
+        "tooltip": false,
         "on-click": "$HOME/.config/rofi/powermenu/type-1/powermenu.sh"
     },
     "custom/menu": {
         "format": " ",
+        "tooltip": false,
         "on-click": "$HOME/.config/rofi/launchers/type-1/launcher.sh"
     }
 }
