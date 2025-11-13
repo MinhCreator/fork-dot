@@ -90,9 +90,10 @@
 
     "hyprland/language": {
         "format": "{short}",
-        // "format-us": "en",
-        // "format-ua": "ua",
-        // "format-ru": "ru"
+        "tooltip-format": "{full}",
+        "format-us": "us",
+        "format-ua": "ua",
+        "format-ru": "ru"
     },  
 
     "tray": {
