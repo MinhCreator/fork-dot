@@ -1,7 +1,7 @@
 # my configs for linux(for both hyprland and bspwm)
 <img width="1921" height="1081" alt="hyprland" src="https://github.com/user-attachments/assets/95ab5039-3544-47b0-850c-bd97b0027b65" />
 
-
+## [video showcase](https://youtu.be/IKBmkHcGWys)
 
 
 
