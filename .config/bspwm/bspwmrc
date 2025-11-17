@@ -23,7 +23,6 @@ bspc rule -a obsidian desktop='^4'
 bspc rule -a Spotify desktop='^5'
 bspc rule -a mpv desktop='^5'
 bspc rule -a osu!.exe desktop='^6'
-# bspc rule -a Alacritty state=floating rectangle=620x320+100+100
 
 dunst &
 nitrogen --restore
@@ -32,4 +31,7 @@ picom --config ~/.config/picom/picom.conf &
 # $HOME/.screenlayout/display.sh
 $HOME/.config/polybar/launch.sh
 sudo rmmod wacom
+wl-paste --watch cliphist store
+wl-paste --type text --watch cliphist store -max-items 100
+wl-paste --type image --watch cliphist store -max-items 100
 udiskie &
