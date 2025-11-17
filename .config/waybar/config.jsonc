@@ -88,19 +88,15 @@
     },
 
     "hyprland/language": {
-        "format": "{short}",
-        "tooltip-format": "{full}",
-        "format-us": "us",
-        "format-ua": "ua",
+        "format": "{}",
+        "format-en": "us",
+        "format-uk": "ua",
         "format-ru": "ru"
-    },  
+    },
 
     "tray": {
 	    "icon-size": 16,
 	    "spacing": 16,
-    "icons": {
-        "AyuGramDesktop": "/usr/share/icons/Papirus/16x16/panel/telegram-panel.svg",
-        }
     },
     "custom/powermenu": {
         "format": " \uf011  ",
