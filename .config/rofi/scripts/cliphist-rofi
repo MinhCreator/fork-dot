@@ -1,7 +1,38 @@
 #!/usr/bin/env bash
 
+tmp_dir="/tmp/cliphist"
+mkdir -p "$tmp_dir"
+
 if [ -z "$1" ]; then
-    cliphist list
+    # --- МАЛЮЄМО КНОПКУ ---
+    # передаємо і текст, і команду DELETE
+    echo -en "clear history\0icon\x1fuser-trash\0info\x1fDELETE\n"
+
+    # --- МАЛЮЄМО СПИСОК ---
+    cliphist list | while read -r line; do
+        id=$(echo "$line" | cut -f1)
+        
+        if [[ "$line" == *"binary data"* ]]; then
+            display_text="image"
+            img="$tmp_dir/$id.png"
+            if [ ! -f "$img" ]; then
+                cliphist decode "$id" | magick - -resize 256x256 "$img"
+            fi
+            icon="$img"
+        else
+            display_text=$(echo "$line" | cut -f2-)
+            icon=""
+        fi
+
+        echo -en "$display_text\0icon\x1f$icon\0info\x1f$id\n"
+    done
 else
-    cliphist decode <<<"$1" | wl-copy
+    # --- ТУТ БУЛА ПРОБЛЕМА ---
+    # тепер ми перевіряємо: якщо прийшло "DELETE" АБО просто текст "clear history"
+    if [[ "$1" == "DELETE" ]] || [[ "$1" == "clear history" ]]; then
+        cliphist wipe
+        rm -rf "$tmp_dir"/*
+    else
+        cliphist decode "$1" | wl-copy
+    fi
 fi
