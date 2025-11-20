@@ -33,7 +33,7 @@
 
     "wireplumber": {
         "format": "\udb81\udd7e",
-        "tooltip-format": "volume: {volume}%",
+        "tooltip-format": "{node_name}\nvolume: {volume}%",
         "on-click": "control --volume",
         "max-volume": 150,
         "scroll-step": 5

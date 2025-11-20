@@ -14,9 +14,9 @@ if [ -z "$1" ]; then
             if [ ! -f "$img" ]; then
                 cliphist decode "$id" | magick - -resize 256x256 "$img"
             fi
-            echo -en "$id [image]\0icon\x1f$img\n"
+            echo -en "$id [Image]\0icon\x1f$img\n"
         else
-            echo -en "$line\0icon\x1f\n"
+            echo -en "$line\0icon\x1fedit-copy\n"
         fi
     done
 else
@@ -25,7 +25,6 @@ else
         cliphist wipe
         rm -rf "$tmp_dir"/*
     else
-        
         cliphist decode $(echo "$1" | awk '{print $1}') | wl-copy
     fi
 fi

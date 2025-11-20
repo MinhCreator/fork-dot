@@ -71,7 +71,7 @@ else
 fi
 
 # 1. update system and install packages (paru must be installed!)
-paru -Syu --needed --noconfirm matugen-bin update-grub firefox alacritty thunar bspwm sxhkd hyprland hyprpaper hyprcursor hyprlock hypridle rofi polybar waybar quickshell dunst mission-center swaync neofetch fastfetch nano gamemode wine wine-mono portproton xarchiver openssh gvfs flatpak pamac mpv qimgv better-control pavucontrol base-devel git networkmanager btrfs-progs udiskie flameshot htop mc playerctl zsh fish arandr nwg-look nwg-displays nwg-clipman nitrogen bluez blueman pipewire wireplumber pipewire-pulse pipewire-alsa xdg-desktop-portal xdg-desktop-portal-hyprland xwaylandvideobridge nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader kripton-theme-git tokyonight-gtk-theme-git ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts papirus-icon-theme papirus-folders bibata-cursor-theme-bin ttf-rubik-vf ttf-material-symbols-variable-git python-materialyoucolor cmake ninja libqalculate aubio libcava ttf-roboto inter-font evolution-data-server cliphist wl-clipboard starship ente-auth-bin visual-studio-code-bin steam prismlauncher discord ayugram-desktop-bin telegram-desktop spotify spicetify-cli jdk8-openjdk jdk17-openjdk jdk21-openjdk cava peaclock obs-studio gpu-screen-recorder gpu-screen-recorder-ui
+paru -Syu --needed --noconfirm firefox alacritty thunar bspwm sxhkd hyprland hyprpaper hyprcursor hyprlock hypridle hyprpicker rofi polybar waybar matugen-bin dunst mission-center swaync neofetch fastfetch nano xarchiver openssh gvfs flatpak pamac mpv qimgv better-control pavucontrol base-devel git networkmanager btrfs-progs udiskie flameshot htop mc playerctl zsh fish arandr nwg-look nwg-displays nwg-clipman nitrogen bluez blueman pipewire wireplumber pipewire-pulse pipewire-alsa xdg-desktop-portal xdg-desktop-portal-hyprland xwaylandvideobridge nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader kripton-theme-git tokyonight-gtk-theme-git ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts papirus-icon-theme papirus-folders bibata-cursor-theme-bin ttf-rubik-vf ttf-material-symbols-variable-git python-materialyoucolor cmake ninja libqalculate aubio libcava ttf-roboto inter-font evolution-data-server cliphist wl-clipboard starship
 # install vencord (discord mod)
 sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
 
@@ -105,13 +105,5 @@ if [ -d "$ZSH/custom/plugins" ]; then
 else
   echo "directory $ZSH/custom/plugins not found, skipping plugin installation"
 fi
-
-# 5. install osu!
-if [ ! -d osu-winello ]; then
-  git clone https://github.com/NelloKudo/osu-winello.git
-fi
-cd osu-winello
-chmod +x ./osu-winello.sh
-./osu-winello.sh
 
 echo "all done, restart your computer to apply changes"
