@@ -47,8 +47,8 @@
 		"critical": 15
 	},
 	"events": {
-		"on-discharging-warning": "notify-send -u normal 'Low battery'",
-		"on-discharging-critical": "notify-send -u critical 'Very low battery'"
+		"on-discharging-warning": "notify-send -u normal 'low battery\nyou have less then 30% battery left'",
+		"on-discharging-critical": "notify-send -u critical 'Very low battery\nyou have less then 15% battery left'"
 	},
         "format": "{icon}",
         "tooltip-format": "battery: {capacity}%\ntime left: {time}",
@@ -89,8 +89,8 @@
 
     "hyprland/language": {
         "format": "{}",
-        "format-en": "us",
-        "format-uk": "ua",
+        "format-en": "en",
+        "format-ua": "ua",
         "format-ru": "ru"
     },
 

@@ -3,6 +3,8 @@
 set -e
 
 DOTDIR="$HOME/dotfiles"
+CONFIG_SRC="$DOTDIR/config"
+HOME_SRC="$DOTDIR/home"
 
 echo "checking paru installation..."
 
@@ -20,64 +22,59 @@ else
     echo "paru is already installed"
 fi
 
+# 1. update system and install packages
+# We do this BEFORE linking because we need 'stow' installed
 echo "starting to install packages, hold tight..."
 
-# 0. symlink dotfiles
-if [ -d "$DOTDIR" ]; then
-  echo "linking dotfiles..."
-
-  # ---------- link top-level dotfiles
-  for file in "$DOTDIR"/.*; do
-    name="$(basename "$file")"
-
-    # skip . and ..
-    [[ "$name" == "." || "$name" == ".." ]] && continue
-
-    # skip .config
-    [[ "$name" == ".config" ]] && continue
-
-    target="$HOME/$name"
-
-    if [ -e "$target" ] && [ ! -L "$target" ]; then
-      echo "⚠️ $target already exists (not symlink), skipping"
-      continue
-    fi
-
-    ln -sf "$file" "$target"
-    echo "→ linked $name"
-  done
-
-  # ---------- link .config/*
-  if [ -d "$DOTDIR/.config" ]; then
-    mkdir -p "$HOME/.config"
-
-    for file in "$DOTDIR/.config"/*; do
-      name="$(basename "$file")"
-      target="$HOME/.config/$name"
-
-      if [ -e "$target" ] && [ ! -L "$target" ]; then
-        echo "⚠️ $target exists (not symlink), skipping"
-        continue
-      fi
-
-      ln -sf "$file" "$target"
-      echo "→ linked .config/$name"
-    done
-  fi
-
-  echo "✅ dotfiles linked"
-else
-  echo "❌ dotfiles folder not found at $DOTDIR, skipping"
-fi
-
-# 1. update system and install packages (paru must be installed!)
-paru -Syu --needed --noconfirm firefox alacritty thunar bspwm sxhkd hyprland hyprpaper hyprcursor hyprlock hypridle hyprpicker rofi polybar waybar matugen-bin dunst mission-center swaync neofetch fastfetch nano xarchiver openssh gvfs flatpak pamac mpv qimgv better-control pavucontrol base-devel git networkmanager btrfs-progs udiskie flameshot htop mc playerctl zsh fish arandr nwg-look nwg-displays nwg-clipman nitrogen bluez blueman pipewire wireplumber pipewire-pulse pipewire-alsa xdg-desktop-portal xdg-desktop-portal-hyprland xwaylandvideobridge nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader kripton-theme-git tokyonight-gtk-theme-git ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts papirus-icon-theme papirus-folders bibata-cursor-theme-bin ttf-rubik-vf ttf-material-symbols-variable-git python-materialyoucolor cmake ninja libqalculate aubio libcava ttf-roboto inter-font evolution-data-server cliphist wl-clipboard starship
-# install vencord (discord mod)
-sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
+paru -Syu --needed --noconfirm stow firefox alacritty thunar sddm bspwm sxhkd hyprland hyprpaper hyprcursor hyprlock hypridle hyprpicker rofi polybar waybar matugen-bin dunst mission-center swaync neofetch fastfetch nano xarchiver openssh gvfs gvfs-dnssd flatpak pamac mpv qimgv better-control pavucontrol base-devel git networkmanager btrfs-progs udiskie flameshot htop mc playerctl zsh fish arandr nwg-look nwg-displays nwg-clipman nitrogen bluez blueman pipewire wireplumber pipewire-pulse pipewire-alsa xdg-desktop-portal xdg-desktop-portal-hyprland xwaylandvideobridge nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader kripton-theme-git tokyonight-gtk-theme-git ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts papirus-icon-theme papirus-folders bibata-cursor-theme-bin ttf-rubik-vf ttf-material-symbols-variable-git python-materialyoucolor cmake ninja libqalculate aubio libcava ttf-roboto inter-font evolution-data-server cliphist wl-clipboard starship
 
 echo "packages installed"
 
-# 2. set up keyboard layouts
+# 2. symlink dotfiles using stow
+echo "setting up dotfiles..."
+
+if [ -d "$DOTDIR" ]; then
+    
+    # --- Part A: Handle ~/.config (from ~/dotfiles/config) ---
+    if [ -d "$CONFIG_SRC" ]; then
+        echo "🔗 processing configs..."
+        mkdir -p "$HOME/.config"
+
+        # Backup existing configs to avoid stow conflicts
+        # This checks: if a folder exists in .config AND in your dotfiles, but isn't a link yet -> backup it
+        for folder in "$CONFIG_SRC"/*; do
+            name=$(basename "$folder")
+            target="$HOME/.config/$name"
+            if [ -d "$target" ] && [ ! -L "$target" ]; then
+                echo "⚠️ backuping existing config: $target -> $target.backup"
+                mv "$target" "$target.backup"
+            fi
+        done
+
+        # Apply stow for configs
+        # -d: source dir, -t: target dir, .: stow everything inside source
+        stow -v -d "$CONFIG_SRC" -t "$HOME/.config" .
+    else
+        echo "ℹ️ directory $CONFIG_SRC not found, skipping config linking"
+    fi
+
+    # --- Part B: Handle Home files (from ~/dotfiles/home) ---
+    if [ -d "$HOME_SRC" ]; then
+        echo "🔗 processing home files..."
+        
+        # Apply stow for home files (like .zshrc, .bashrc)
+        stow -v -d "$HOME_SRC" -t "$HOME" .
+    else
+        echo "ℹ️ directory $HOME_SRC not found, skipping home linking"
+    fi
+
+    echo "✅ dotfiles linked successfully"
+
+else
+    echo "❌ dotfiles folder not found at $DOTDIR, skipping linking"
+fi
+
+# 3. set up keyboard layouts
 sudo mkdir -p /etc/X11/xorg.conf.d/
 sudo tee /etc/X11/xorg.conf.d/00-keyboard.conf > /dev/null <<EOF
 Section "InputClass"
@@ -91,19 +88,21 @@ EOF
 
 echo "keyboard layout configured"
 
-# 3. change default shell to fish
+# 4. change default shell to fish
 echo "changing your default shell to fish"
 chsh -s $(which fish) || echo "failed to change shell for user, do it yourself"
 sudo chsh -s $(which fish) root || echo "failed to change shell for root, do it yourself"
 
-# 4. add zsh plugins (requires $ZSH and oh-my-zsh)
+# 5. add zsh plugins (optional, kept from original script)
+# Note: You seem to be using fish now, but I kept this just in case you switch back
 if [ -d "$ZSH/custom/plugins" ]; then
   cd "$ZSH/custom/plugins"
   git clone https://github.com/zsh-users/zsh-autosuggestions || echo "zsh-autosuggestions already exists"
   git clone https://github.com/zsh-users/zsh-syntax-highlighting || echo "zsh-syntax-highlighting already exists"
   echo "zsh plugins installed"
 else
-  echo "directory $ZSH/custom/plugins not found, skipping plugin installation"
+  # Removed the error message since you are using fish and might not have ZSH folder
+  echo "skipping zsh plugins (folder not found)"
 fi
 
 echo "all done, restart your computer to apply changes"

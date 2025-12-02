@@ -13,6 +13,8 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias connect="ssh owodray@192.168.0.107"
 alias upd="sudo nano /opt/discord/resources/build_info.json"
+alias tosu="~/documents/tosu/tosu"
+alias dotfiles="$HOME/dotfiles/.sync.sh"
 
 # ====== integration with starship ======
 if type -q starship
