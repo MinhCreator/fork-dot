@@ -1,3 +1,4 @@
+# folders
 hypr
 nvim
 swaync
@@ -22,5 +23,7 @@ nwg-look
 nitrogen
 htop
 mc
+
+# files
 user-dirs.dirs
 starship.toml
