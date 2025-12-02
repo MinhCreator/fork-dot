@@ -1,8 +1,8 @@
 #!/bin/bash
 
 PROFILE_FILE="/sys/firmware/acpi/platform_profile"
-MODE_CONFIG="$HOME/.config/hypr/current_mode.conf"
-OPACITY_RULES="$HOME/.config/hypr/opacity.conf"
+MODE_CONFIG="$HOME/.config/hypr/extra/current_mode.conf"
+OPACITY_RULES="$HOME/.config/hypr/extra/opacity.conf"
 
 last_mode=""
 

@@ -47,8 +47,9 @@
 		"critical": 15
 	},
 	"events": {
-		"on-discharging-warning": "notify-send -u normal 'low battery\nyou have less then 30% battery left'",
-		"on-discharging-critical": "notify-send -u critical 'Very low battery\nyou have less then 15% battery left'"
+		"on-discharging-warning": "notify-send -u normal 'low battery' 'you have less then 20% battery left'",
+		"on-discharging-critical": "notify-send -u critical 'very low battery' 'you have less then 10% battery left'",
+        "on-charging-100": "notify-send -u normal 'battery full!' 'your battery is fully charged'"
 	},
         "format": "{icon}",
         "tooltip-format": "battery: {capacity}%\ntime left: {time}",
