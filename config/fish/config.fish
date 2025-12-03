@@ -19,6 +19,7 @@ alias whitelist="nano $HOME/dotfiles/.whitelist"
 alias fishconfig="nano ~/.config/fish/config.fish"
 alias hyprconfig="nano ~/.config/hypr/hyprland.conf"
 alias config="mc ~/.config/"
+alias f="yazi"
 
 # ====== integration with starship ======
 if type -q starship
@@ -54,3 +55,6 @@ function fish_prompt
     echo -n " ❯ "
 end
 starship init fish | source
+
+# ====== set default editor ======
+set -gx EDITOR nvim
