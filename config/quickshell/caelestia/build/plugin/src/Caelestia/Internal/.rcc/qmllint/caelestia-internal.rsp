@@ -1,9 +1,0 @@
---bare
--I
-/home/deridray/.config/quickshell/caelestia/build/qml
--I
-/home/deridray/.config/quickshell/caelestia/build/qml
--I
-/usr/lib/qt6/qml
---resource
-/home/deridray/.config/quickshell/caelestia/build/plugin/src/Caelestia/Internal/.qt/rcc/qmake_Caelestia_Internal.qrc

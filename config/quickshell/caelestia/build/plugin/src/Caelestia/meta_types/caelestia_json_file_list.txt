@@ -1,6 +1,0 @@
-/home/deridray/.config/quickshell/caelestia/build/plugin/src/Caelestia/caelestia_autogen/include/../EWIEGA46WW/moc_appdb.cpp.json
-/home/deridray/.config/quickshell/caelestia/build/plugin/src/Caelestia/caelestia_autogen/include/../EWIEGA46WW/moc_cutils.cpp.json
-/home/deridray/.config/quickshell/caelestia/build/plugin/src/Caelestia/caelestia_autogen/include/../EWIEGA46WW/moc_imageanalyser.cpp.json
-/home/deridray/.config/quickshell/caelestia/build/plugin/src/Caelestia/caelestia_autogen/include/../EWIEGA46WW/moc_qalculator.cpp.json
-/home/deridray/.config/quickshell/caelestia/build/plugin/src/Caelestia/caelestia_autogen/include/../EWIEGA46WW/moc_requests.cpp.json
-/home/deridray/.config/quickshell/caelestia/build/plugin/src/Caelestia/caelestia_autogen/include/../EWIEGA46WW/moc_toaster.cpp.json

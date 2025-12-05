@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/Caelestia/Internal">
-    <file alias="qmldir">/home/deridray/.config/quickshell/caelestia/build/qml/Caelestia/Internal/qmldir</file>
-  </qresource>
-</RCC>
-

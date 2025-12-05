@@ -26,8 +26,7 @@ fi
 # We do this BEFORE linking because we need 'stow' installed
 echo "starting to install packages, hold tight..."
 
-paru -Syu --needed --noconfirm stow firefox alacritty thunar sddm bspwm sxhkd hyprland hyprpaper hyprcursor hyprlock hypridle hyprpicker rofi polybar waybar matugen-bin dunst mission-center swaync neofetch fastfetch nano xarchiver openssh gvfs gvfs-dnssd flatpak pamac mpv qimgv better-control pavucontrol base-devel git networkmanager btrfs-progs udiskie flameshot htop yazi-git playerctl zsh fish arandr nwg-look nwg-displays nwg-clipman nitrogen bluez blueman pipewire wireplumber pipewire-pulse pipewire-alsa xdg-desktop-portal xdg-desktop-portal-hyprland xwaylandvideobridge nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader kripton-theme-git tokyonight-gtk-theme-git ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts papirus-icon-theme papirus-folders bibata-cursor-theme-bin ttf-rubik-vf ttf-material-symbols-variable-git python-materialyoucolor cmake ninja libqalculate aubio libcava ttf-roboto inter-font evolution-data-server cliphist wl-clipboard starship ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick
-
+paru -Syu --needed --noconfirm stow firefox alacritty thunar sddm hyprland hyprpaper hyprcursor hyprlock hypridle hyprpicker rofi waybar matugen-bin mission-center swaync fastfetch nano xarchiver openssh gvfs gvfs-dnssd flatpak pamac mpv qimgv better-control pavucontrol base-devel git networkmanager btrfs-progs udiskie htop yazi-git playerctl fish arandr nwg-look nwg-displays nwg-clipman nitrogen bluez blueman pipewire wireplumber pipewire-pulse pipewire-alsa xdg-desktop-portal xdg-desktop-portal-hyprland xwaylandvideobridge tokyonight-gtk-theme-git ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts papirus-icon-theme papirus-folders bibata-cursor-theme-bin ttf-rubik-vf ttf-material-symbols-variable-git python-materialyoucolor cmake ninja libqalculate aubio libcava ttf-roboto inter-font evolution-data-server cliphist wl-clipboard starship ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagickecho "packages installed"
 echo "packages installed"
 
 # 2. symlink dotfiles using stow
@@ -94,7 +93,6 @@ chsh -s $(which fish) || echo "failed to change shell for user, do it yourself"
 sudo chsh -s $(which fish) root || echo "failed to change shell for root, do it yourself"
 
 # 5. add zsh plugins (optional, kept from original script)
-# Note: You seem to be using fish now, but I kept this just in case you switch back
 if [ -d "$ZSH/custom/plugins" ]; then
   cd "$ZSH/custom/plugins"
   git clone https://github.com/zsh-users/zsh-autosuggestions || echo "zsh-autosuggestions already exists"
