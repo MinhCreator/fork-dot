@@ -5,8 +5,8 @@
     "themeLinks": [],
     "eagerPatches": false,
     "enabledThemes": [
-        "custom font.css",
-        "Tokyo Night Dark theme.css"
+        "Tokyo Night Dark theme.css",
+        "custom font.css"
     ],
     "enableReactDevtools": false,
     "frameless": true,
@@ -236,7 +236,8 @@
         },
         "GameActivityToggle": {
             "enabled": true,
-            "oldIcon": false
+            "oldIcon": false,
+            "location": "PANEL"
         },
         "GifPaste": {
             "enabled": false
@@ -483,7 +484,9 @@
             "iconSize": 32
         },
         "ShowHiddenChannels": {
-            "enabled": true
+            "enabled": true,
+            "showMode": 0,
+            "hideUnreads": true
         },
         "ShowHiddenThings": {
             "enabled": true,
@@ -545,7 +548,10 @@
             "enabled": false
         },
         "TypingIndicator": {
-            "enabled": true
+            "enabled": true,
+            "includeMutedChannels": false,
+            "includeCurrentChannel": true,
+            "indicatorMode": 3
         },
         "TypingTweaks": {
             "enabled": true,
@@ -667,6 +673,10 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1762737118674
+        "settingsSyncVersion": 1765126314911
+    },
+    "uiElements": {
+        "chatBarButtons": {},
+        "messagePopoverButtons": {}
     }
 }

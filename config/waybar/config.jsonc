@@ -28,7 +28,8 @@
 
     "clock": {
 	"format": "{:%b %d %H:%M}",
-	"format-alt": "{:%A, %b %d, %Y}",
+	"format-alt": "{:%A, %b %d, %H:%M:%S}",
+    "interval": 1,
 	},
 
     "wireplumber": {
