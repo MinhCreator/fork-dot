@@ -5,8 +5,8 @@
     "themeLinks": [],
     "eagerPatches": false,
     "enabledThemes": [
-        "Tokyo Night Dark theme.css",
-        "custom font.css"
+        "custom font.css",
+        "Tokyo Night Dark theme.css"
     ],
     "enableReactDevtools": false,
     "frameless": true,
@@ -673,7 +673,7 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1765126314911
+        "settingsSyncVersion": 1765143226668
     },
     "uiElements": {
         "chatBarButtons": {},
