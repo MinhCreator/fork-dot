@@ -31,7 +31,6 @@ vim.keymap.set("n", "<leader>q", "<cmd>quit<cr>")
 vim.keymap.set("n", "<leader>Q", "<cmd>q!<cr>")
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
 vim.keymap.set("n", "<leader>a", "ggVG")
-
 require("lazy").setup({
     -- tokyonight
     { 
@@ -61,7 +60,7 @@ require("lazy").setup({
           "MunifTanjim/nui.nvim",
         },
         keys = {
-          { "<leader>e", ":Neotree toggle float<CR>" },
+          { "<leader>-", ":Neotree toggle float<CR>" },
         },
     },
 
@@ -291,7 +290,7 @@ require("lazy").setup({
     {
         "mikavilpas/yazi.nvim",
         event = "VeryLazy",
-        keys = { { "<leader>-", "<cmd>Yazi<cr>" } },
+        keys = { { "<leader>e", "<cmd>Yazi<cr>" } },
         opts = { open_for_directories = false },
     },
 
@@ -299,20 +298,5 @@ require("lazy").setup({
     {
         "MagicDuck/grug-far.nvim",
         config = function() require('grug-far').setup({}) end
-    },
-
-    -- codecompanion
-    {
-        "olimorris/codecompanion.nvim",
-        dependencies = { "nvim-lua/plenary.nvim", "nvim-treesitter/nvim-treesitter" },
-        config = function()
-            require("codecompanion").setup({
-                strategies = {
-                    chat = { adapter = "copilot" },
-                    inline = { adapter = "copilot" },
-                },
-            })
-            vim.keymap.set("n", "<leader>cc", "<cmd>CodeCompanionChat<cr>")
-        end,
     },
 })
