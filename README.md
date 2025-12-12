@@ -23,7 +23,7 @@ paru -Syu --needed --noconfirm stow firefox alacritty thunar sddm hyprland hyprp
 # optional dependencies
 paru -Syu --needed --noconfirm ente-auth-bin visual-studio-code-bin vim neovim luarocks steam gamemode wine wine-mono portproton prismlauncher discord ayugram-desktop-bin telegram-desktop thunderbird spotify spicetify-cli jdk8-openjdk jdk17-openjdk jdk21-openjdk cava peaclock obs-studio gpu-screen-recorder gpu-screen-recorder-ui bitwarden losslesscut-bin logmein-hamachi haguichi
 ```
-install vencord:
+### install vencord:
 ```
 sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
 ```
