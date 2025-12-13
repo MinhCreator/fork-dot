@@ -5,8 +5,8 @@
     "themeLinks": [],
     "eagerPatches": false,
     "enabledThemes": [
-        "Tokyo Night Dark theme.css",
-        "custom font.css"
+        "custom font.css",
+        "Tokyo Night Dark theme.css"
     ],
     "enableReactDevtools": false,
     "frameless": true,
@@ -49,7 +49,8 @@
             "enabled": true
         },
         "AccountPanelServerProfile": {
-            "enabled": true
+            "enabled": true,
+            "prioritizeServerProfile": false
         },
         "AlwaysAnimate": {
             "enabled": true
@@ -673,7 +674,7 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1765538548417
+        "settingsSyncVersion": 1765563691400
     },
     "uiElements": {
         "chatBarButtons": {},
