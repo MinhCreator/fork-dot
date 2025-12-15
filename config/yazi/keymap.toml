@@ -86,3 +86,9 @@ desc = "Drag Files"
 on   = [ "i" ]
 run  = "plugin easyjump"
 desc = "easyjump"
+
+# --- select ---
+[[mgr.prepend_keymap]]
+on   = [ "<C-Space>" ]
+run  = "cd --interactive"
+desc = "Go to directory"

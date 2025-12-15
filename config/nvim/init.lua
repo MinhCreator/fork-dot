@@ -14,7 +14,7 @@ vim.opt.smartcase = true
 vim.opt.termguicolors = true
 vim.opt.timeoutlen = 500
 
--- history save
+-- session
 local session_file = vim.fn.stdpath("data") .. "/global_session.vim"
 
 vim.api.nvim_create_autocmd("VimLeave", {
@@ -56,15 +56,10 @@ vim.keymap.set("n", "<leader>a", "ggVG")
 local map = vim.api.nvim_set_keymap
 local opts = { noremap = true, silent = true }
 
--- Move to previous/next
 map('n', '<A-,>', '<Cmd>BufferPrevious<CR>', opts)
 map('n', '<A-.>', '<Cmd>BufferNext<CR>', opts)
-
--- Re-order to previous/next
 map('n', '<A-<>', '<Cmd>BufferMovePrevious<CR>', opts)
 map('n', '<A->>', '<Cmd>BufferMoveNext<CR>', opts)
-
--- Goto buffer in position...
 map('n', '<A-1>', '<Cmd>BufferGoto 1<CR>', opts)
 map('n', '<A-2>', '<Cmd>BufferGoto 2<CR>', opts)
 map('n', '<A-3>', '<Cmd>BufferGoto 3<CR>', opts)
@@ -75,41 +70,9 @@ map('n', '<A-7>', '<Cmd>BufferGoto 7<CR>', opts)
 map('n', '<A-8>', '<Cmd>BufferGoto 8<CR>', opts)
 map('n', '<A-9>', '<Cmd>BufferGoto 9<CR>', opts)
 map('n', '<A-0>', '<Cmd>BufferLast<CR>', opts)
-
--- Pin/unpin buffer
 map('n', '<A-p>', '<Cmd>BufferPin<CR>', opts)
-
--- Goto pinned/unpinned buffer
---                 :BufferGotoPinned
---                 :BufferGotoUnpinned
-
--- Close buffer
 map('n', '<A-c>', '<Cmd>BufferClose<CR>', opts)
-
--- Wipeout buffer
---                 :BufferWipeout
-
--- Close commands
---                 :BufferCloseAllButCurrent
---                 :BufferCloseAllButPinned
---                 :BufferCloseAllButCurrentOrPinned
---                 :BufferCloseBuffersLeft
---                 :BufferCloseBuffersRight
-
--- Magic buffer-picking mode
 map('n', '<C-p>',   '<Cmd>BufferPick<CR>', opts)
-map('n', '<C-s-p>', '<Cmd>BufferPickDelete<CR>', opts)
-
--- Sort automatically by...
-map('n', '<Space>bb', '<Cmd>BufferOrderByBufferNumber<CR>', opts)
-map('n', '<Space>bn', '<Cmd>BufferOrderByName<CR>', opts)
-map('n', '<Space>bd', '<Cmd>BufferOrderByDirectory<CR>', opts)
-map('n', '<Space>bl', '<Cmd>BufferOrderByLanguage<CR>', opts)
-map('n', '<Space>bw', '<Cmd>BufferOrderByWindowNumber<CR>', opts)
-
--- Other:
--- :BarbarEnable - enables barbar (enabled by default)
--- :BarbarDisable - very bad command, should never be used
 
 require("lazy").setup({
     -- tokyonight
@@ -132,19 +95,56 @@ require("lazy").setup({
 
     -- neo-tree
     {
+        "nvim-neo-tree/neo-tree.nvim",
+        branch = "v3.x",
+        dependencies = {
+            "nvim-lua/plenary.nvim",
+            "nvim-tree/nvim-web-devicons",
+            "MunifTanjim/nui.nvim",
+        },
+        keys = {
+            { "<leader>t", "<cmd>Neotree toggle<cr>", desc = "NeoTree" },
+        },
+        config = function()
+            require("neo-tree").setup({
+                close_if_last_window = true,
+                window = { width = 30 },
+            })
+        end,
+    },
+
+    -- barbar
+    {
         'romgrk/barbar.nvim',
         dependencies = {
-        'lewis6991/gitsigns.nvim', -- OPTIONAL: for git status
-        'nvim-tree/nvim-web-devicons', -- OPTIONAL: for file icons
-    },
+            'lewis6991/gitsigns.nvim', 
+            'nvim-tree/nvim-web-devicons',
+        },
         init = function() vim.g.barbar_auto_setup = false end,
         opts = {
-            -- lazy.nvim will automatically call setup for you. put your options here, anything missing will use the default:
-            -- animation = true,
-            -- insert_at_start = true,
-            -- …etc.
+            sidebar_filetypes = {
+                ['neo-tree'] = {event = 'BufWinLeave', text = 'File Explorer'},
+            },
         },
-        version = '^1.0.0', -- optional: only update when a new 1.x version is released
+        version = '^1.0.0', 
+    },
+
+    -- lazygit
+    {
+        "kdheepak/lazygit.nvim",
+        cmd = {
+            "LazyGit",
+            "LazyGitConfig",
+            "LazyGitCurrentFile",
+            "LazyGitFilter",
+            "LazyGitFilterCurrentFile",
+        },
+        keys = {
+            { "<leader>gg", "<cmd>LazyGit<cr>", desc = "LazyGit" }
+        },
+        dependencies = {
+            "nvim-lua/plenary.nvim",
+        },
     },
 
     -- telescope
@@ -165,9 +165,29 @@ require("lazy").setup({
         build = ":TSUpdate",
         config = function()
             require("nvim-treesitter.configs").setup({
-                ensure_installed = { "c", "lua", "vim", "python", "javascript", "html", "css", "bash", "go", "java", "markdown", "markdown_inline", "tsx" },
+                ensure_installed = { "c", "lua", "vim", "python", "javascript", "html", "css", "bash", "go", "java", "markdown", "sql", "yaml" },
                 highlight = { enable = true },
             })
+        end,
+    },
+
+    -- autopairs
+    {
+        'windwp/nvim-autopairs',
+        event = "InsertEnter",
+        config = true
+    },
+
+    -- dadbod
+    {
+        "kristijanhusak/vim-dadbod-ui",
+        dependencies = {
+            { "tpope/vim-dadbod", lazy = true },
+            { "kristijanhusak/vim-dadbod-completion", ft = { "sql", "mysql", "plsql" }, lazy = true },
+        },
+        cmd = { "DBUI", "DBUIToggle", "DBUIAddConnection" },
+        init = function()
+            vim.g.db_ui_use_nerd_fonts = 1
         end,
     },
 
@@ -185,17 +205,16 @@ require("lazy").setup({
         },
         config = function()
             require("java").setup()
-            require("mason").setup({
-                ui = {
-                    check_outdated_packages_on_start = false,
-                }
-            })
+            require("mason").setup()
             
             local lspconfig = require("lspconfig")
             local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
             require("mason-lspconfig").setup({
-                ensure_installed = { "pyright", "ts_ls", "html", "cssls", "gopls" },
+                ensure_installed = { 
+                    "pyright", "ts_ls", "html", "cssls", "gopls", 
+                    "bashls", "yamlls", "sqlls", "dockerls" 
+                },
                 handlers = {
                     function(server_name)
                         lspconfig[server_name].setup({ capabilities = capabilities })
@@ -213,10 +232,8 @@ require("lazy").setup({
                     vim.keymap.set("n", "gD", vim.lsp.buf.declaration, opts)
                     vim.keymap.set("n", "gd", vim.lsp.buf.definition, opts)
                     vim.keymap.set("n", "K", vim.lsp.buf.hover, opts)
-                    vim.keymap.set("n", "gi", vim.lsp.buf.implementation, opts)
                     vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, opts)
                     vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, opts)
-                    vim.keymap.set("n", "gr", vim.lsp.buf.references, opts)
                 end,
             })
 
@@ -237,6 +254,7 @@ require("lazy").setup({
                 }),
                 sources = cmp.config.sources({
                     { name = "nvim_lsp" },
+                    { name = "codeium" },
                     { name = "luasnip" },
                 }, {
                     { name = "buffer" },
@@ -270,116 +288,38 @@ require("lazy").setup({
         },
     },
 
-    -- go
-    { 
-        "ray-x/go.nvim", 
-        dependencies = { "ray-x/guihua.lua", "neovim/nvim-lspconfig", "nvim-treesitter/nvim-treesitter" },
-        config = function() require("go").setup() end,
-        event = {"CmdlineEnter"}, 
-        ft = {"go", 'gomod'}, 
-    },
-    "maxandron/goplements.nvim",
-    "fredrikaverpil/godoc.nvim",
-
-    -- languages
-    "nvim-flutter/flutter-tools.nvim",
-    "dmmulroy/ts-error-translator.nvim",
-    "dmmulroy/tsc.nvim",
-    "rest-nvim/rest.nvim",
-    "luckasRanarison/tailwind-tools.nvim",
-    "mawkler/jsx-element.nvim",
-    "farias-hecdin/CSSVarHighlight",
-    "AckslD/swenv.nvim",
-    "iabdelkareem/csharp.nvim",
-    "Julian/lean.nvim",
-    "gennaro-tedesco/nvim-jqx",
-
-    -- markdown
-    { 
-        "MeanderingProgrammer/render-markdown.nvim", 
-        dependencies = { "nvim-treesitter/nvim-treesitter", "nvim-tree/nvim-web-devicons" },
-        config = function() require('render-markdown').setup({}) end,
-    },
-    { 
-        "iamcco/markdown-preview.nvim", 
-        cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" }, 
-        build = "cd app && npm install", 
-        init = function() vim.g.mkdp_filetypes = { "markdown" } end, 
-        ft = { "markdown" }, 
-    },
-    "Zeioth/markmap.nvim",
-    "Kicamon/markdown-table-mode.nvim",
-    { "chomosuke/typst-preview.nvim", ft = "typst", version = "1.*" },
-
-    -- trouble
+    -- autotag
     {
-        "folke/trouble.nvim",
-        dependencies = { "nvim-tree/nvim-web-devicons" },
-        keys = { { "<leader>xx", "<cmd>Trouble diagnostics toggle<cr>" } },
-        opts = {}, 
+        "windwp/nvim-ts-autotag",
+        config = function() require('nvim-ts-autotag').setup() end
     },
 
-    -- fidget
+    -- neogen
+    {
+        "danymat/neogen",
+        config = true,
+        keys = { { "<leader>nf", "<cmd>Neogen func<CR>", desc = "func doc" } }
+    },
+
+    -- live server
+    {
+        "barrett-ruth/live-server.nvim",
+        build = "npm install -g live-server",
+        cmd = { "LiveServerStart", "LiveServerStop" },
+        config = true
+    },
+
+    -- codeium
+    {
+        "Exafunction/codeium.nvim",
+        dependencies = { "nvim-lua/plenary.nvim", "hrsh7th/nvim-cmp" },
+        config = function() require("codeium").setup({}) end
+    },
+
+    -- misc
+    { "folke/trouble.nvim", opts = {} },
     { "j-hui/fidget.nvim", opts = {} },
-
-    -- inc-rename
-    {
-        "smjonas/inc-rename.nvim",
-        config = function()
-            require("inc_rename").setup()
-        end,
-    },
-
-    -- actions-preview
-    {
-        "aznhe21/actions-preview.nvim",
-        config = function()
-        end,
-    },
-
-    -- surround
-    {
-        "kylechui/nvim-surround",
-        event = "VeryLazy",
-        config = function() require("nvim-surround").setup({}) end,
-    },
-
-    -- harpoon
-    {
-        "ThePrimeagen/harpoon",
-        branch = "harpoon2",
-        dependencies = { "nvim-lua/plenary.nvim" },
-        config = function()
-            local harpoon = require("harpoon")
-            harpoon:setup()
-            vim.keymap.set("n", "<leader>ha", function() harpoon:list():add() end)
-            vim.keymap.set("n", "<C-e>", function() harpoon.ui:toggle_quick_menu(harpoon:list()) end)
-            vim.keymap.set("n", "<C-j>", function() harpoon:list():select(1) end)
-            vim.keymap.set("n", "<C-k>", function() harpoon:list():select(2) end)
-            vim.keymap.set("n", "<C-l>", function() harpoon:list():select(3) end)
-            vim.keymap.set("n", "<C-h>", function() harpoon:list():select(4) end)
-        end,
-    },
-
-    -- oil
-    {
-        "stevearc/oil.nvim",
-        opts = {},
-        dependencies = { "nvim-tree/nvim-web-devicons" },
-        keys = { { "-", "<CMD>Oil<CR>" } },
-    },
-
-    -- yazi
-    {
-        "mikavilpas/yazi.nvim",
-        event = "VeryLazy",
-        keys = { { "<leader>e", "<cmd>Yazi<cr>" } },
-        opts = { open_for_directories = false },
-    },
-
-    -- grug-far
-    {
-        "MagicDuck/grug-far.nvim",
-        config = function() require('grug-far').setup({}) end
-    },
+    { "kylechui/nvim-surround", event = "VeryLazy", config = function() require("nvim-surround").setup({}) end },
+    { "mikavilpas/yazi.nvim", event = "VeryLazy", keys = { { "<leader>e", "<cmd>Yazi<cr>" } }, opts = { open_for_directories = false } },
+    { "MagicDuck/grug-far.nvim", config = function() require('grug-far').setup({}) end },
 })
