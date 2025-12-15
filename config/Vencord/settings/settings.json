@@ -56,7 +56,7 @@
             "enabled": true
         },
         "AlwaysExpandRoles": {
-            "enabled": false
+            "enabled": true
         },
         "AlwaysTrust": {
             "enabled": true,
@@ -674,7 +674,7 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1765563691400
+        "settingsSyncVersion": 1765749707980
     },
     "uiElements": {
         "chatBarButtons": {},
