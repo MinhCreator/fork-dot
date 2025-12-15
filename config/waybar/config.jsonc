@@ -1,5 +1,6 @@
 {
     "layer": "top",
+    "margin": "5 5 0 5",
     "position": "top",
     "height": 24,
     "spacing": 2,
@@ -103,11 +104,11 @@
     "custom/powermenu": {
         "format": " \uf011  ",
         "tooltip": false,
-        "on-click": "$HOME/.config/rofi/powermenu/type-1/powermenu.sh"
+        "on-click": "$HOME/.config/rofi/powermenu/powermenu.sh"
     },
     "custom/menu": {
         "format": " ",
         "tooltip": false,
-        "on-click": "$HOME/.config/rofi/launchers/type-1/launcher.sh"
+        "on-click": "$HOME/.config/rofi/launcher/launcher.sh"
     }
 }
