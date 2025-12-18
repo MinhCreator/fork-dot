@@ -26,14 +26,14 @@ configuration {
 * {
     border-colour:               var(selected);
     handle-colour:               var(selected);
-    background-colour:           var(background);
+    background-colour:           var(background-color);
     foreground-colour:           var(foreground);
     alternate-background:        var(background-alt);
-    normal-background:           var(background);
+    normal-background:           transparent;
     normal-foreground:           var(foreground);
-    urgent-background:           var(urgent);
+    urgent-background:           transparent;
     urgent-foreground:           var(background);
-    active-background:           var(active);
+    active-background:           transparent;
     active-foreground:           var(background);
     selected-normal-background:  var(selected);
     selected-normal-foreground:  var(background);
@@ -41,11 +41,11 @@ configuration {
     selected-urgent-foreground:  var(background);
     selected-active-background:  var(urgent);
     selected-active-foreground:  var(background);
-    alternate-normal-background: var(background);
+    alternate-normal-background: transparent;
     alternate-normal-foreground: var(foreground);
-    alternate-urgent-background: var(urgent);
+    alternate-urgent-background: transparent;
     alternate-urgent-foreground: var(background);
-    alternate-active-background: var(active);
+    alternate-active-background: transparent;
     alternate-active-foreground: var(background);
 }
 

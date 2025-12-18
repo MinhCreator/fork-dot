@@ -7,7 +7,7 @@
 
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["tray", "battery", "network", "wireplumber", "hyprland/language", "custom/powermenu"],
+    "modules-right": ["tray", "battery", "network", "wireplumber", "hyprland/language", "custom/notification"],
 
     "hyprland/workspaces": {
         "format": "<span size='larger'>{icon}</span>",
@@ -91,7 +91,7 @@
     },
 
     "hyprland/language": {
-        "format": "{}",
+        "format": "{} ",
         "format-en": "en",
         "format-ua": "ua",
         "format-ru": "ru"
@@ -101,14 +101,19 @@
 	    "icon-size": 16,
 	    "spacing": 16,
     },
-    "custom/powermenu": {
-        "format": " \uf011  ",
-        "tooltip": false,
-        "on-click": "$HOME/.config/rofi/powermenu/powermenu.sh"
-    },
     "custom/menu": {
         "format": " ",
         "tooltip": false,
         "on-click": "$HOME/.config/rofi/launcher/launcher.sh"
-    }
+    },
+    "custom/notification": {
+        "tooltip": false,
+        "format": "  ",
+        "return-type": "json",
+        "exec-if": "which swaync-client",
+        "exec": "swaync-client -swb",
+        "escape": true,
+        "on-click": "swaync-client -t -sw",
+        "on-click-right": "swaync-client -d -sw"
+  },
 }
