@@ -6,6 +6,8 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.mouse = "a"
 vim.opt.clipboard = "unnamedplus"
+vim.opt.swapfile = false
+vim.opt.cursorline = true 
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
@@ -13,26 +15,7 @@ vim.opt.ignorecase = true
 vim.opt.smartcase = true
 vim.opt.termguicolors = true
 vim.opt.timeoutlen = 500
-
--- session
-local session_file = vim.fn.stdpath("data") .. "/global_session.vim"
-
-vim.api.nvim_create_autocmd("VimLeave", {
-  pattern = "*",
-  callback = function()
-    vim.cmd("mks! " .. session_file)
-  end,
-})
-
-vim.api.nvim_create_autocmd("VimEnter", {
-  pattern = "*",
-  nested = true,
-  callback = function()
-    if vim.fn.argc() == 0 and vim.fn.filereadable(session_file) == 1 then
-      vim.cmd("source " .. session_file)
-    end
-  end,
-})
+vim.opt.so = 30
 
 -- lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
@@ -47,6 +30,7 @@ vim.opt.rtp:prepend(lazypath)
 
 -- keymaps
 vim.keymap.set("n", "<leader>w", "<cmd>write<cr>")
+vim.keymap.set("n", "<leader>W", "<cmd>wq<cr>")
 vim.keymap.set("n", "<leader>q", "<cmd>quit<cr>")
 vim.keymap.set("n", "<leader>Q", "<cmd>q!<cr>")
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
@@ -130,6 +114,19 @@ require("lazy").setup({
     },
 
     -- lazygit
+
+    {
+        'nvimdev/dashboard-nvim',
+        event = 'VimEnter',
+        config = function()
+        require('dashboard').setup {
+        -- config
+    }
+  end,
+  dependencies = { {'nvim-tree/nvim-web-devicons'}}
+},
+
+
     {
         "kdheepak/lazygit.nvim",
         cmd = {

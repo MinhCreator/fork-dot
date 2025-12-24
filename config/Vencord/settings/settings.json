@@ -10,7 +10,7 @@
     ],
     "enableReactDevtools": false,
     "frameless": true,
-    "transparent": false,
+    "transparent": true,
     "winCtrlQ": false,
     "disableMinSize": false,
     "winNativeTitleBar": false,
@@ -318,7 +318,8 @@
             "ignoreChannels": "",
             "ignoreGuilds": "",
             "logEdits": true,
-            "logDeletes": true
+            "logDeletes": true,
+            "inlineEdits": true
         },
         "MessageTags": {
             "enabled": false
@@ -487,7 +488,8 @@
         "ShowHiddenChannels": {
             "enabled": true,
             "showMode": 0,
-            "hideUnreads": true
+            "hideUnreads": true,
+            "defaultAllowedUsersAndRolesDropdownState": true
         },
         "ShowHiddenThings": {
             "enabled": true,
@@ -674,7 +676,7 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1765749707980
+        "settingsSyncVersion": 1766078095503
     },
     "uiElements": {
         "chatBarButtons": {},

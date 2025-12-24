@@ -34,7 +34,13 @@
 	},
 
     "wireplumber": {
-        "format": "\udb81\udd7e",
+        "format": "{icon}",
+        "format-muted": "",
+        "format-source": " {volume}%",
+        "format-source-muted": " ",
+        "format-icons": {
+        "default": ["󰕿", "󰖀", "󰕾"]
+        },
         "tooltip-format": "{node_name}\nvolume: {volume}%",
         "on-click": "control --volume",
         "max-volume": 150,
@@ -54,9 +60,14 @@
         "on-charging-100": "notify-send -u normal 'battery full!' 'your battery is fully charged'"
 	},
         "format": "{icon}",
+        "format-charging": "{icon}",
+        "format-plugged": "",
         "tooltip-format": "battery: {capacity}%\ntime left: {time}",
         "on-click": "control --battery",
-        "format-icons": ["\uf244", "\uf243", "\uf242", "\uf241", "\uf240"],
+        "format-icons": {
+        "default": ["", "", "", "", ""],
+        "charging": ["󰢟", "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"]
+    }
     },
 
     "memory": {
