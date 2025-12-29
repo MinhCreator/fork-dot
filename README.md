@@ -22,7 +22,7 @@ paru -Syu --needed --noconfirm stow librewolf helium-browser-bin kitty thunar ya
 
 ```
 # optional dependencies
-paru -Syu --needed --noconfirm ente-auth-bin visual-studio-code-bin luarocks steam gamemode wine wine-mono portproton prismlauncher discord ayugram-desktop-bin telegram-desktop thunderbird spotify spicetify-cli jdk8-openjdk jdk17-openjdk jdk21-openjdk cava peaclock obs-studio gpu-screen-recorder gpu-screen-recorder-ui bitwarden losslesscut-bin logmein-hamachi haguichi
+paru -Syu --needed --noconfirm ente-auth-bin visual-studio-code-bin luarocks steam gamemode wine wine-mono portproton prismlauncher discord ayugram-desktop-bin telegram-desktop thunderbird spotify spicetify-cli jdk8-openjdk jdk17-openjdk jdk21-openjdk cava peaclock obs-studio gpu-screen-recorder gpu-screen-recorder-ui bitwarden losslesscut-bin logmein-hamachi haguichi v4l2loopback-dkms
 ```
 ### install vencord:
 ```

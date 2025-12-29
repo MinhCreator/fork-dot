@@ -1,312 +1,122 @@
 * {
-    /* `otf-font-awesome` is required to be installed for icons */
-    font-family: JetBrainsMono Nerd Font, Helvetica, Arial, sans-serif;
+    min-height: 0;
+    min-width: 0;
+    font-family: Lexend, "JetBrainsMono NFP";
     font-size: 16px;
+    font-weight: 600;
 }
 
 window#waybar {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(26, 27, 38, 0.5);
     color: #ffffff;
     border-radius: 15px;
     transition-property: background-color;
     transition-duration: .5s;
 }
 
-window#waybar.hidden {
-    opacity: 0.2;
-}
-
-/*
-window#waybar.empty {
-    background-color: transparent;
-}
-window#waybar.solo {
-    background-color: #FFFFFF;
-}
-*/
-
-window#waybar.termite {
-    background-color: #3F3F3F;
-}
-
-window#waybar.chromium {
-    background-color: #000000;
-    border: none;
-}
-
-button {
-    /* Use box-shadow instead of border so the text isn't offset */
-    box-shadow: inset 0 -3px transparent;
-    /* Avoid rounded borders under each button name */
-    border: none;
-    border-radius: 0;
-}
-
-/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
-button:hover {
-    background: inherit;
-    box-shadow: inset 0 -3px #ffffff;
-}
-
-/* you can set a style on hover for any module like this */
-#pulseaudio:hover {
-    color: #3F3F3F;
-}
-
 #workspaces button {
-    padding: 0 5px;
-    background-color: transparent;
-    color: #ffffff;
+    padding: 0.3rem 0.6rem;
+    margin: 0.4rem 0.25rem;
+    border-radius: 6px;
+    /* background-color: #181825; */
+    background-color: #1e1e2e;
+    color: #cdd6f4;
 }
 
 #workspaces button:hover {
-    background: rgba(0, 0, 0, 0.2);
+    color: #1e1e2e;
+    background-color: #cdd6f4;
 }
 
-#workspaces button.focused {
-    background-color: #64727D;
-    box-shadow: inset 0 -3px #ffffff;
+#workspaces button.active {
+    background-color: #1e1e2e;
+    color: #89b4fa;
 }
 
 #workspaces button.urgent {
-    background-color: #eb4d4b;
-}
-
-#mode {
-    background-color: #64727D;
-    box-shadow: inset 0 -3px #ffffff;
+    background-color: #1e1e2e;
+    color: #f38ba8;
 }
 
 #clock,
-#battery,
-#cpu,
-#memory,
-#disk,
-#temperature,
-#backlight,
-#network,
 #pulseaudio,
 #wireplumber,
-#custom-media,
+#battery,
+#bluetooth,
+#network,
+#custom-logo,
+#custom-menu,
+#custom-power,
+#custom-spotify,
+#custom-notification,
+#cpu,
 #tray,
-#mode,
-#idle_inhibitor,
-#scratchpad,
-#power-profiles-daemon,
-#mpd {
-    padding: 0 10px;
-    color: #ffffff;
-}
-
+#memory,
 #window,
-#workspaces {
-    margin: 0 4px;
-}
-
-/* If workspaces is the leftmost module, omit left margin */
-.modules-left>widget:first-child>#workspaces {
-    margin-left: 0;
-}
-
-/* If workspaces is the rightmost module, omit right margin */
-.modules-right>widget:last-child>#workspaces {
-    margin-right: 0;
-}
-
-#clock {
+#language,
+#mpris {
+    padding: 0.3rem 0.6rem;
+    margin: 0.4rem 0.25rem;
+    border-radius: 6px;
+    /* background-color: #181825; */
+    background-color: rgba(26, 27, 38, 0.5);
     color: #ffffff;
 }
 
-#battery {
-    color: #ffffff;
+#mpris.playing {
+    color: #a6e3a1;
 }
 
-#battery.charging,
-#battery.plugged {
-    color: #ffffff;
+#mpris.paused {
+    color: #9399b2;
 }
 
-@keyframes blink {
-    to {
-        background-color: #ffffff;
-        color: #000000;
-    }
+#custom-sep {
+    padding: 0px;
+    color: #585b70;
 }
 
-/* Using steps() instead of linear as a timing function to limit cpu usage */
-#battery.critical:not(.charging) {
-    color: #ffffff;
-    animation-name: blink;
-    animation-duration: 0.5s;
-    animation-timing-function: steps(12);
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-#power-profiles-daemon {
-    padding-right: 15px;
-}
-
-#power-profiles-daemon.performance {
-    color: #ffffff;
-}
-
-#power-profiles-daemon.balanced {
-    color: #ffffff;
-}
-
-#power-profiles-daemon.power-saver {
-    color: #ffffff;
-}
-
-label:focus {
-    background-color: #000000;
-}
-
-#cpu {
-    color: #ffffff;
-}
-
-#memory {
-    color: #ffffff;
-}
-
-#disk {
-    color: #ffffff;
-}
-
-#backlight {
-    color: #ffffff;
-}
-
-#network {
-    color: #ffffff;
-}
-
-#network.disconnected {
-    color: #ffffff;
-}
-
-#pulseaudio {
-    color: #ffffff;
-}
-
-#pulseaudio.muted {
-    color: #ffffff;
-}
-
-#wireplumber {
-    color: #ffffff;
-}
-
-#wireplumber.muted {
-    color: #ffffff;
-}
-
-#custom-media {
-    color: #ffffff;
-    min-width: 100px;
-}
-
-#custom-media.custom-spotify {
-    color: #ffffff;
-}
-
-#custom-media.custom-vlc {
-    color: #ffffff;
-}
-
-#temperature {
-    color: #ffffff;
-}
-
-#temperature.critical {
-    color: #ffffff;
-}
-
-#tray {
-    color: #ffffff;
-}
-
-#tray>.passive {
-    -gtk-icon-effect: dim;
-}
-
-#tray>.needs-attention {
-    -gtk-icon-effect: highlight;
-}
-
-#idle_inhibitor {
-    color: #ffffff;
-}
-
-#idle_inhibitor.activated {
-    color: #ffffff;
-}
-
-#mpd {
-    color: #ffffff;
-}
-
-#mpd.disconnected {
-    color: #ffffff;
-}
-
-#mpd.stopped {
-    color: #ffffff;
-}
-
-#mpd.paused {
-    color: #ffffff;
-}
-
-#language {
-    color: #ffffff;
-    padding: 0 5px;
-    margin: 0 5px;
-    min-width: 16px;
-}
-
-#keyboard-state {
-    color: #ffffff;
-    padding: 0 0px;
-    margin: 0 5px;
-    min-width: 16px;
-}
-
-#keyboard-state>label {
-    padding: 0 5px;
-}
-
-#keyboard-state>label.locked {
-    background: rgba(0, 0, 0, 0.2);
-}
-
-#scratchpad {
-    background: rgba(0, 0, 0, 0.2);
-}
-
-#scratchpad.empty {
+window#waybar.empty #window {
     background-color: transparent;
 }
 
-#privacy {
-    padding: 0;
+#cpu {
+    color: #94e2d5;
 }
 
-#privacy-item {
-    padding: 0 5px;
-    color: white;
+#memory {
+    color: #cba6f7;
 }
 
-#privacy-item.screenshare {
-    color: #ffffff;
+#clock {
+    color: #74c7ec;
 }
 
-#privacy-item.audio-in {
-    color: #ffffff;
+#clock.simpleclock {
+    color: #89b4fa;
 }
 
-#privacy-item.audio-out {
-    color: #ffffff;
+#window {
+    color: #cdd6f4;
+}
+
+#pulseaudio {
+    color: #b4befe;
+}
+
+#pulseaudio.muted {
+    color: #a6adc8;
+}
+
+#custom-logo {
+    color: #89b4fa;
+}
+
+#custom-power {
+    color: #f38ba8;
+}
+
+tooltip {
+    background-color: #181825;
+    border: 2px solid #89b4fa;
 }
