@@ -27,7 +27,7 @@ fi
 echo "starting to install packages, hold tight..."
 
 echo "installing main dependencies..."
-paru -Syu --needed --noconfirm stow librewolf helium-browser-bin kitty thunar yazi-git neovim sddm hyprland hyprpaper hyprcursor hyprlock hypridle hyprpicker rofi waybar matugen-bin mission-center swaync fastfetch nano xarchiver ncdu openssh flatpak mpv qimgv better-control pavucontrol base-devel git udiskie htop playerctl fish arandr nwg-look nwg-displays nwg-clipman starship
+paru -Syu --needed --noconfirm stow librewolf-bin helium-browser-bin kitty thunar yazi-git neovim sddm hyprland hyprpaper hyprcursor hyprlock hypridle hyprpicker rofi waybar matugen-bin mission-center swaync fastfetch nano xarchiver ncdu openssh flatpak mpv qimgv better-control pavucontrol base-devel git udiskie htop playerctl fish arandr nwg-look nwg-displays nwg-clipman starship
 
 echo "installing drivers..."
 paru -Syu --needed --noconfirm bluez blueman pipewire wireplumber pipewire-pulse pipewire-alsa xdg-desktop-portal xdg-desktop-portal-hyprland xwaylandvideobridge networkmanager btrfs-progs gvfs gvfs-dnssd cliphist wl-clipboard ffmpeg 7zip jq poppler fd ripgrep ripdrag fzf zoxide resvg imagemagick
