@@ -26,7 +26,15 @@ fi
 # We do this BEFORE linking because we need 'stow' installed
 echo "starting to install packages, hold tight..."
 
-paru -Syu --needed --noconfirm stow librewolf helium-browser-bin kitty thunar yazi-git vim neovim sddm hyprland hyprpaper hyprcursor hyprlock hypridle hyprpicker rofi waybar matugen-bin mission-center swaync fastfetch nano xarchiver ncdu openssh gvfs gvfs-dnssd flatpak pamac mpv qimgv better-control pavucontrol base-devel git networkmanager btrfs-progs udiskie htop playerctl fish arandr nwg-look nwg-displays nwg-clipman bluez blueman pipewire wireplumber pipewire-pulse pipewire-alsa xdg-desktop-portal xdg-desktop-portal-hyprland xwaylandvideobridge tokyonight-gtk-theme-git ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts papirus-icon-theme papirus-folders bibata-cursor-theme-bin ttf-rubik-vf ttf-material-symbols-variable-git python-materialyoucolor cmake ninja libqalculate aubio libcava ttf-roboto inter-font evolution-data-server cliphist wl-clipboard starship ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick
+echo "installing main dependencies..."
+paru -Syu --needed --noconfirm stow librewolf helium-browser-bin kitty thunar yazi-git neovim sddm hyprland hyprpaper hyprcursor hyprlock hypridle hyprpicker rofi waybar matugen-bin mission-center swaync fastfetch nano xarchiver ncdu openssh flatpak mpv qimgv better-control pavucontrol base-devel git udiskie htop playerctl fish arandr nwg-look nwg-displays nwg-clipman
+
+echo "installing drivers..."
+paru -Syu --needed --noconfirm bluez blueman pipewire wireplumber pipewire-pulse pipewire-alsa xdg-desktop-portal xdg-desktop-portal-hyprland xwaylandvideobridge networkmanager btrfs-progs gvfs gvfs-dnssd
+
+echo "installing themes and fonts..."
+paru -Syu --needed --noconfirm tokyonight-gtk-theme-git ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts papirus-icon-theme bibata-cursor-theme-bin ttf-rubik-vf ttf-material-symbols-variable-git python-materialyoucolor cmake ninja libqalculate aubio libcava ttf-roboto inter-font evolution-data-server cliphist wl-clipboard starship ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick
+
 echo "packages installed"
 
 # 2. symlink dotfiles using stow
