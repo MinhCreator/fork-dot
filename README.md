@@ -16,12 +16,14 @@ chmod +x ./install.sh
 # 2. manual installation
 ### packages:
 ```
-# required dependencies
-paru -Syu --needed --noconfirm stow librewolf helium-browser-bin kitty thunar yazi-git neovim sddm hyprland hyprpaper hyprcursor hyprlock hypridle hyprpicker rofi waybar matugen-bin mission-center swaync fastfetch nano xarchiver ncdu openssh flatpak mpv qimgv better-control pavucontrol base-devel git udiskie htop playerctl fish arandr nwg-look nwg-displays nwg-clipman
+# main pkgs
+paru -Syu --needed --noconfirm stow librewolf helium-browser-bin kitty thunar yazi-git neovim sddm hyprland hyprpaper hyprcursor hyprlock hypridle hyprpicker rofi waybar matugen-bin mission-center swaync fastfetch nano xarchiver ncdu openssh flatpak mpv qimgv better-control pavucontrol base-devel git udiskie htop playerctl fish arandr nwg-look nwg-displays nwg-clipman starship
+
 # drivers
-paru -Syu --needed --noconfirm bluez blueman pipewire wireplumber pipewire-pulse pipewire-alsa xdg-desktop-portal xdg-desktop-portal-hyprland xwaylandvideobridge networkmanager btrfs-progs gvfs gvfs-dnssd
-# installing themes and fonts
-paru -Syu --needed --noconfirm tokyonight-gtk-theme-git ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts papirus-icon-theme bibata-cursor-theme-bin ttf-rubik-vf ttf-material-symbols-variable-git python-materialyoucolor cmake ninja libqalculate aubio libcava ttf-roboto inter-font evolution-data-server cliphist wl-clipboard starship ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick
+paru -Syu --needed --noconfirm bluez blueman pipewire wireplumber pipewire-pulse pipewire-alsa xdg-desktop-portal xdg-desktop-portal-hyprland xwaylandvideobridge networkmanager btrfs-progs gvfs gvfs-dnssd cliphist wl-clipboard ffmpeg 7zip jq poppler fd ripgrep ripdrag fzf zoxide resvg imagemagick
+
+# themes and fonts
+paru -Syu --needed --noconfirm tokyonight-gtk-theme-git ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts papirus-icon-theme bibata-cursor-theme-bin ttf-rubik-vf ttf-material-symbols-variable-git python-materialyoucolor cmake ninja libqalculate aubio libcava ttf-roboto inter-font evolution-data-server 
 ```
 
 ```
