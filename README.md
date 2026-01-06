@@ -1,5 +1,5 @@
 # my configs for hyprland
-<img width="1921" height="1081" alt="hyprland" src="https://github.com/user-attachments/assets/95ab5039-3544-47b0-850c-bd97b0027b65" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0e56d0be-e526-4470-85ba-6c26b5d375bf" />
 
 ## [video showcase](https://youtu.be/IKBmkHcGWys)
 
