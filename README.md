@@ -1,5 +1,6 @@
 # my configs for hyprland
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0e56d0be-e526-4470-85ba-6c26b5d375bf" />
+<img width="1920" height="1080" alt="hyprland" src="https://github.com/user-attachments/assets/f8811d1b-f22a-42aa-81d4-906ade4d5554" />
+
 
 ## [video showcase](https://youtu.be/IKBmkHcGWys)
 
@@ -67,4 +68,9 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting
 ### enable gsr-ui service
 ```
 systemctl enable --now --user gpu-screen-recorder-ui
+```
+
+### anti youtube shorts filter for ublock origin
+```
+https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt
 ```
