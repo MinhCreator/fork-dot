@@ -18,18 +18,19 @@ chmod +x ./install.sh
 ### packages:
 ```
 # main pkgs
-paru -Syu --needed --noconfirm stow librewolf-bin helium-browser-bin kitty thunar yazi-git neovim sddm hyprland hyprpaper hyprcursor hyprlock hypridle hyprpicker rofi waybar matugen-bin mission-center swaync fastfetch nano xarchiver ncdu openssh flatpak mpv qimgv better-control pavucontrol base-devel git udiskie htop playerctl fish arandr nwg-look nwg-displays nwg-clipman starship
+paru -Syu --needed stow librewolf-bin helium-browser-bin kitty thunar yazi-git neovim sddm hyprland swww hyprcursor hyprlock hypridle hyprpicker rofi waybar matugen-bin mission-center swaync fastfetch nano xarchiver ncdu openssh flatpak mpv qimgv better-control pavucontrol base-devel git cmake ninja udiskie btop playerctl fish arandr nwg-look nwg-displays nwg-clipman starship 
 
 # drivers
-paru -Syu --needed --noconfirm bluez blueman pipewire wireplumber pipewire-pulse pipewire-alsa xdg-desktop-portal xdg-desktop-portal-hyprland xwaylandvideobridge networkmanager btrfs-progs gvfs gvfs-dnssd cliphist wl-clipboard ffmpeg 7zip jq poppler fd ripgrep ripdrag fzf zoxide resvg imagemagick
+paru -Syu --needed bluez blueman pipewire wireplumber pipewire-pulse pipewire-alsa xdg-desktop-portal xdg-desktop-portal-hyprland xwaylandvideobridge networkmanager btrfs-progs gvfs gvfs-dnssd cliphist wl-clipboard ffmpeg 7zip jq poppler fd ripgrep ripdrag fzf zoxide resvg imagemagick libqalculate aubio libcava evolution-data-server
 
 # themes and fonts
-paru -Syu --needed --noconfirm tokyonight-gtk-theme-git ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd nerd-fonts papirus-icon-theme bibata-cursor-theme-bin ttf-rubik-vf ttf-material-symbols-variable-git python-materialyoucolor cmake ninja libqalculate aubio libcava ttf-roboto inter-font evolution-data-server 
+paru -Syu --needed tokyonight-gtk-theme-git adw-gtk-theme noto-fonts noto-fonts-emoji ttf-font-awesome nerd-fonts papirus-icon-theme bibata-cursor-theme-bin ttf-rubik-vf ttf-material-symbols-variable-git python-materialyoucolor ttf-roboto inter-font 
+ 
 ```
 
 ```
 # optional dependencies
-paru -Syu --needed --noconfirm ente-auth-bin visual-studio-code-bin luarocks steam gamemode wine wine-mono portproton prismlauncher discord ayugram-desktop-bin telegram-desktop thunderbird spotify spicetify-cli jdk8-openjdk jdk17-openjdk jdk21-openjdk cava peaclock obs-studio gpu-screen-recorder gpu-screen-recorder-ui bitwarden losslesscut-bin logmein-hamachi haguichi v4l2loopback-dkms
+paru -Syu --needed --noconfirm ente-auth-bin visual-studio-code-bin luarocks steam gamemode wine wine-mono portproton prismlauncher discord ayugram-desktop-bin thunderbird spotify spicetify-cli jdk8-openjdk jdk17-openjdk jdk21-openjdk cava peaclock obs-studio gpu-screen-recorder gpu-screen-recorder-ui bitwarden losslesscut-bin logmein-hamachi haguichi v4l2loopback-dkms
 ```
 ### install vencord:
 ```

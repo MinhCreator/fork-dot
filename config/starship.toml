@@ -1,37 +1,46 @@
-# ~/.config/starship.toml
+format = '''
+$directory$git_branch$rust$python
+$character'''
 
-format = """\
-[](bold red)[](bold green)[](bold yellow) \
-[  $directory](cyan)\
-$git_branch$git_status\
-$python$nodejs\
-"""
+palette = 'colors'
+
+[palettes.colors]
+mustard = '#af8700' # example
+color1 = '#e1b8f5'
+color2 = '#422255'
+color3 = '#cec3ce'
+color4 = '#221e24'
+color5 = '#422255'
+color6 = '#161217'
+color7 = '#161217'
+color8 = '#e1b8f5'
+color9 = '#f4b7b8'
+
+# Prompt symbols 
+[character]
+success_symbol = "[🞈](color9 bold)"
+error_symbol = "[🞈](@{error})"
+vicmd_symbol = "[🞈](#f9e2af)"
 
 [directory]
-style = "cyan"
-truncation_length = 0
-truncation_symbol = "…/"
+format = "[](fg:color1 bg:color4)[󰉋](bg:color1 fg:color2)[ ](fg:color1 bg:color4)[$path ](fg:color3 bg:color4)[ ](fg:color4)"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
 
 [git_branch]
-format = " [  git:($branch)](bold blue)"
+format = "[](fg:color8 bg:color4)[ ](bg:color8 fg:color5)[](fg:color8 bg:color4)[(bg:color8 fg:color5) $branch](fg:color3 bg:color4)[](fg:color4) "
 
-[git_status]
-format = "([$all_status$ahead_behind]($style))"
-style = "blue"
-conflicted = " "
-ahead = "⇡${count} "
-behind = "⇣${count} "
-diverged = "⇕${count} "
-up_to_date = " "
-untracked = " "
-stashed = " "
-modified = " "
-staged = " "
+[time]
+format = "[](fg:color8 bg:color4)[ ](bg:color8 fg:color5)[](fg:color8 bg:color4)[(bg:color8 fg:color5) $time](fg:color3 bg:color4)[](fg:color4) "
+disabled = false
+time_format = "%R" # Hour:Minute Format
 
 [python]
-symbol = " "
-style = "yellow"
-
-[nodejs]
-symbol = " "
-style = "green"
+format = "[](fg:color8 bg:color4)[${symbol}${version}](bg:color8 fg:color5)[](fg:color8 bg:color4)[(bg:color8 fg:color5)( ${virtualenv})](fg:color3 bg:color4)[](fg:color4) "
+symbol = '🐍'
+# pyenv_version_name = true
+pyenv_prefix = 'venv'

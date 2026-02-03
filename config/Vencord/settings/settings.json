@@ -5,8 +5,7 @@
     "themeLinks": [],
     "eagerPatches": false,
     "enabledThemes": [
-        "custom font.css",
-        "Tokyo Night Dark theme.css"
+        "midnight-discord.css"
     ],
     "enableReactDevtools": false,
     "frameless": true,
@@ -664,6 +663,9 @@
         "AutoDNDWhilePlaying": {
             "enabled": false,
             "statusToSet": "dnd"
+        },
+        "MoreQuickReactions": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -676,7 +678,7 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1766078095503
+        "settingsSyncVersion": 1769811950109
     },
     "uiElements": {
         "chatBarButtons": {},

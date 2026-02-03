@@ -1,18 +1,26 @@
 # folders
-hypr
-nvim
-swaync
-gtk-4.0
-fish
-waybar
+alacritty
+btop
+cava
 fastfetch
+fish
+gtk-3.0
+gtk-4.0
+hypr
 kitty
 matugen
-xsettingsd
-Vencord
-spicetify
+mpv
+nvim
+qt5ct
+qt6ct
 rofi
-htop
+spicetify
+swaync
+Vencord
+waybar
+waypaper
+wlogout
+xsettingsd
 yazi
 
 # files

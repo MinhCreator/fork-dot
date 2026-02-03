@@ -126,7 +126,7 @@
 
     "hyprland/language": {
         "format": " {} ",
-        "format-en": "en",
+        "format-en": "us",
         "format-ua": "ua",
         "format-ru": "ru"
     },
@@ -140,8 +140,7 @@
 	},
 	"events": {
 		"on-discharging-warning": "notify-send -u normal 'low battery' 'you have less then 30% battery left'",
-		"on-discharging-critical": "notify-send -u critical 'very low battery' 'you have less then 15% battery left'",
-        "on-charging-100": "notify-send -u normal 'battery full!' 'your battery is fully charged'"
+		"on-discharging-critical": "notify-send -u critical 'very low battery' 'you have less then 15% battery left'"
 	},
         "format": "{icon} {capacity}%",
         "format-charging": "{icon} ",
@@ -175,4 +174,4 @@
     "tooltip": false
   },
 },
-   
+

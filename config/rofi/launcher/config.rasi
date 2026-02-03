@@ -24,31 +24,37 @@ configuration {
 @import                          ".config/rofi/shared/fonts.rasi"
 
 * {
-    border-colour:               var(selected);
-    handle-colour:               var(selected);
-    background-colour:           var(background-color);
-    foreground-colour:           var(foreground);
-    alternate-background:        var(background-alt);
-    normal-background:           transparent;
-    normal-foreground:           var(foreground);
-    urgent-background:           transparent;
-    urgent-foreground:           var(background);
-    active-background:           transparent;
-    active-foreground:           var(background);
-    selected-normal-background:  var(selected);
-    selected-normal-foreground:  var(background);
-    selected-urgent-background:  var(active);
-    selected-urgent-foreground:  var(background);
-    selected-active-background:  var(urgent);
-    selected-active-foreground:  var(background);
-    alternate-normal-background: transparent;
-    alternate-normal-foreground: var(foreground);
-    alternate-urgent-background: transparent;
-    alternate-urgent-foreground: var(background);
-    alternate-active-background: transparent;
-    alternate-active-foreground: var(background);
-}
+    border-colour:               @primary;
+    handle-colour:               @primary;
 
+    background-colour:           @surface;
+    foreground-colour:           @on-surface;
+    alternate-background:        @surface-container; 
+    normal-background:           transparent;
+    normal-foreground:           @on-surface;
+    
+    alternate-normal-background: transparent;
+    alternate-normal-foreground: @on-surface;
+
+    selected-normal-background:  @primary;
+    selected-normal-foreground:  @on-primary;
+    urgent-background:           transparent;
+    urgent-foreground:           @error;
+    
+    selected-urgent-background:  @error;
+    selected-urgent-foreground:  @on-error;
+    
+    alternate-urgent-background: transparent;
+    alternate-urgent-foreground: @error;
+    active-background:           transparent;
+    active-foreground:           @secondary;
+    
+    selected-active-background:  @secondary;
+    selected-active-foreground:  @on-secondary;
+    
+    alternate-active-background: transparent;
+    alternate-active-foreground: @secondary;
+}
 /*****----- Main Window -----*****/
 window {
     /* properties for window widget */

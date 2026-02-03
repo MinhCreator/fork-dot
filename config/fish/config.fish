@@ -58,3 +58,5 @@ starship init fish | source
 
 # ====== set default editor ======
 set -gx EDITOR nvim
+
+fish_add_path /home/deridray/.spicetify
