@@ -30,7 +30,7 @@ paru -Syu --needed tokyonight-gtk-theme-git adw-gtk-theme noto-fonts noto-fonts-
 
 ```
 # optional dependencies
-paru -Syu --needed --noconfirm ente-auth-bin visual-studio-code-bin luarocks steam gamemode wine wine-mono portproton prismlauncher discord ayugram-desktop-bin thunderbird spotify spicetify-cli jdk8-openjdk jdk17-openjdk jdk21-openjdk cava peaclock obs-studio gpu-screen-recorder gpu-screen-recorder-ui bitwarden losslesscut-bin logmein-hamachi haguichi v4l2loopback-dkms
+paru -Syu --needed --noconfirm ente-auth-bin visual-studio-code-bin luarocks steam gamemode wine wine-mono portproton prismlauncher discord ayugram-desktop-bin thunderbird spotify spicetify-cli jdk8-openjdk jdk17-openjdk jdk21-openjdk cava peaclock obs-studio gpu-screen-recorder gpu-screen-recorder-ui bitwarden losslesscut-bin logmein-hamachi haguichi v4l2loopback-dkms nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader
 ```
 ### install vencord:
 ```
