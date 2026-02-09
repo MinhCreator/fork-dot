@@ -1,27 +1,22 @@
-/* === TOKYO NIGHT PALETTE === */
-/* background: #1a1b26 */
-/* storm bg:   #24283b */
-/* foreground: #c0caf5 */
-/* blue:       #7aa2f7 */
-/* red:        #f7768e */
-/* green:      #9ece6a */
-/* yellow:     #e0af68 */
+@import "colors.css";
 
 .control-center {
-    background: #1a1b26cc;
-    border: 2px solid #A9B1D6FF;
+    /* Використовуємо змінну з "вшитою" прозорістю */
+    background: @background;
+    
+    border: 2px solid @outline;
     border-radius: 20px;
     box-shadow: none;
 }
 
 .widget-title {
-    color: #7aa2f7;
+    color: @primary;
     font-size: 1rem;
     font-weight: bold;
 }
 
 .widget-label {
-    color: #c0caf5;
+    color: @on_surface;
     font-size: 1rem;
 }
 
@@ -32,21 +27,13 @@
 }
 
 .notification {
-    background: #1a1b26cc;
+    background: @cc-bg; /* Теж прозорий фон */
     border-radius: 20px;
-    border: 2px solid #A9B1D6FF;
+    border: 2px solid @outline;
     box-shadow: none;
     padding: 10px;
 }
 
-.notification-group {
-    background-color: rgba(0, 0, 0, 0.25);
-    border-radius: 18px;
-}
-
-window {
-    background: transparent;
-}
 .notification-content {
     background: transparent;
     padding: 10px;
@@ -55,25 +42,24 @@ window {
 .summary {
     font-size: 16px;
     font-weight: bold;
-    color: #c0caf5;
+    color: @on_surface;
 }
-
 
 .body {
     font-size: 14px;
-    color: #a9b1d6;
+    color: @on_surface_variant;
 }
 
 .notification.critical {
-    background: #1a1b26cc;
-    border: 2px solid #f7768e;
+    background: @cc-bg;
+    border: 2px solid @error;
     box-shadow: none;
     padding: 10px;
 }
 
 .notification.critical .summary,
 .notification.critical .body {
-    color: #f7768e;
+    color: @error;
 }
 
 .notification-row:focus,
@@ -83,8 +69,8 @@ window {
 
 .notification-action {
     background: transparent;
-    color: #c0caf5;
-    border: 1px solid #A9B1D6FF;
+    color: @on_surface;
+    border: 1px solid @outline;
     border-radius: 10px;
 }
 

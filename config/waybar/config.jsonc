@@ -1,6 +1,6 @@
 {
   "layer": "top",
-  "margin": "5 5 0 5",
+  "margin": "15 5 0 5",
   "position": "top",
   "height": 24,
   "spacing": 2,  "exclusive": true,
@@ -17,7 +17,7 @@
     "pulseaudio",
     "clock",
     "custom/notification",
-    "custom/power"
+    "custom/powermenu"
   ],
   "custom/spotify": {
     "format": "  {}",
@@ -71,19 +71,7 @@
   "clock": {
     "format": " {:%H:%M}",
     "format-alt": " {:L%a %d %b}",
-    "calendar": {
-      "format": {
-        "days": "<span weight='normal'>{}</span>",
-        "months": "<span color='#cdd6f4'><b>{}</b></span>",
-        "today": "<span color='#f38ba8' weight='700'><u>{}</u></span>",
-        "weekdays": "<span color='#f9e2af'><b>{}</b></span>",
-        "weeks": "<span color='#a6e3a1'><b>W{}</b></span>"
-      },
-      "mode": "month",
-      "mode-mon-col": 1,
-      "on-scroll": 1
-    },
-    "tooltip-format": "<span color='#cdd6f4' font='Lexend 16'><tt><small>{calendar}</small></tt></span>"
+    "tooltip": false
   },
   "cpu": {
     "format": " {usage}%",
@@ -95,12 +83,13 @@
   },
   "pulseaudio": {
     "format": "{icon} {volume}%",
-"format-muted": "  muted",
+    "format-muted": "  muted",
     "format-icons": {
       "headphone": "",
       "default": [" ", " ", " "]
     },
-    "on-click": "control --volume"
+    "on-click": "control --volume",
+    "max-volume": 150
   },
     "network": {
         "format": "",
@@ -159,6 +148,11 @@
     "tooltip": false,
     "on-click": "wlogout -p layer-shell &",
     "format": "⏻"
+  },
+  "custom/powermenu": {
+    "format": " \uf011  ",
+    "tooltip": false,
+    "on-click": "$HOME/.config/rofi/powermenu/powermenu.sh"
   },
   "custom/notification": {
     "escape": true,

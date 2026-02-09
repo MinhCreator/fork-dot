@@ -1,5 +1,5 @@
 * {
-    primary: {{colors.primary.default.hex}};
+    primary: {{colors.primary.default.hex}}cc;
     primary-fixed: {{colors.primary_fixed.default.hex}};
     primary-fixed-dim: {{colors.primary_fixed_dim.default.hex}};
     on-primary: {{colors.on_primary.default.hex}};
@@ -27,8 +27,8 @@
     on-error: {{colors.on_error.default.hex}};
     error-container: {{colors.error_container.default.hex}};
     on-error-container: {{colors.on_error_container.default.hex}};
-    surface: {{colors.surface.default.hex}};
-    on-surface: {{colors.on_surface.default.hex}};
+    surface: {{colors.surface.default.hex}}cc;
+    on-surface: {{colors.on_surface.default.hex}}cc;
     on-surface-variant: {{colors.on_surface_variant.default.hex}};
     outline: {{colors.outline.default.hex}};
     outline-variant: {{colors.outline_variant.default.hex}};

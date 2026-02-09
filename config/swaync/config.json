@@ -51,30 +51,33 @@
       "button-text": "clear",
       "clear-all-button": true
     },
+    "dnd": {
+      "text": "do not disturb"
+    },
     "buttons-grid": {
       "actions": [
         {
-          "label": "  ",
+          "label": "  ",
           "command": "systemctl poweroff",
           "type": "normal"
         },
         {
-          "label": "  ",
+          "label": "  ",
           "command": "systemctl suspend",
           "type": "normal"
         },
         {
-          "label": "  ",
+          "label": "  ",
           "command": "systemctl reboot",
           "type": "normal"
         },
         {
-          "label": "  ",
+          "label": "  ",
           "command": "hyprlock",
           "type": "normal"
         },
         {
-          "label": "  ",
+          "label": "  ",
           "command": "hyprctl dispatch exit",
           "type": "normal"
         }

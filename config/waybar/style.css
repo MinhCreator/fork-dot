@@ -9,7 +9,7 @@
 }
 
 window#waybar {
-    background-color: @primary_container;
+    background-color: @surface;
     color: #ffffff;
     border-radius: 15px;
     transition-property: background-color;
@@ -61,8 +61,8 @@ window#waybar {
     margin: 0.4rem 0.25rem;
     border-radius: 6px;
     /* background-color: #181825; */
-    background-color: rgba(26, 27, 38, 0.5);
-    color: #ffffff;
+    background-color: @background;
+    color: @primary;
 }
 
 #mpris.playing {
@@ -91,27 +91,27 @@ window#waybar.empty #window {
 }
 
 #clock {
-    color: #74c7ec;
+    color: @primary;
 }
 
 #clock.simpleclock {
-    color: #89b4fa;
+    color: @primary;
 }
 
 #window {
-    color: #cdd6f4;
+    color: @primary;
 }
 
 #pulseaudio {
-    color: #b4befe;
+    color: @primary;
 }
 
 #pulseaudio.muted {
-    color: #a6adc8;
+    color: @primary;
 }
 
 #custom-logo {
-    color: #89b4fa;
+    color: @primary;
 }
 
 #custom-power {
@@ -119,6 +119,6 @@ window#waybar.empty #window {
 }
 
 tooltip {
-    background-color: #181825;
-    border: 2px solid #89b4fa;
+    background-color: @background;
+    border: 2px solid @primary;
 }

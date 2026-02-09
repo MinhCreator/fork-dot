@@ -22,7 +22,7 @@ while true; do
                 animations { 
                     enabled = false 
                 }
-                windowrulev2 = opacity 1 override 1 override, class:.*" > "$MODE_CONFIG"
+                windowrule = opacity 1 override 1 override, match:class .*" > "$MODE_CONFIG"
                 
                 hyprctl reload
                 

@@ -29,8 +29,8 @@ output_path = '~/.config/hypr/extra/colors.conf'
 
 [templates.kitty]
 input_path = '~/.config/matugen/templates/kitty-colors.conf'
-output_path = '~/.config/kitty/themes/Matugen.conf'
-post_hook = "kitty +kitten themes --reload-in=all Matugen"
+output_path = '~/.config/kitty/themes/matugen.conf'
+post_hook = "kitty +kitten themes --reload-in=all matugen"
 
 [templates.kvantum_kvconfig]
 input_path = './templates/kvantum-colors.kvconfig'

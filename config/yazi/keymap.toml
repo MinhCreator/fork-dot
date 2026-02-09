@@ -78,7 +78,7 @@ desc = "Rename bookmark by fzf"
 # --- ripdrag ---
 [[mgr.prepend_keymap]]
 on   = [ "<C-d>" ]
-run  = "plugin ripdrag"
+run  = "plugin drag"
 desc = "Drag Files"
 
 # --- easyjump ---
