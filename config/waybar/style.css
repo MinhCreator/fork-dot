@@ -9,7 +9,7 @@
 }
 
 window#waybar {
-    background-color: @surface;
+    background-color: alpha(@surface, 0.8);
     color: #ffffff;
     border-radius: 15px;
     transition-property: background-color;
@@ -20,24 +20,23 @@ window#waybar {
     padding: 0.3rem 0.6rem;
     margin: 0.4rem 0.25rem;
     border-radius: 6px;
-    /* background-color: #181825; */
-    background-color: #1e1e2e;
-    color: #cdd6f4;
+    background-color: @surface_container;
+    color: @on_surface;
 }
 
 #workspaces button:hover {
-    color: #1e1e2e;
-    background-color: #cdd6f4;
+    color: @on_surface;
+    background-color: @surface_container_high;
 }
 
 #workspaces button.active {
-    background-color: #1e1e2e;
-    color: #89b4fa;
+    background-color: @primary;
+    color: @on_primary;
 }
 
 #workspaces button.urgent {
-    background-color: #1e1e2e;
-    color: #f38ba8;
+    background-color: @error;
+    color: @on_error;
 }
 
 #clock,
@@ -61,7 +60,7 @@ window#waybar {
     margin: 0.4rem 0.25rem;
     border-radius: 6px;
     /* background-color: #181825; */
-    background-color: @background;
+    background-color: transparent;
     color: @primary;
 }
 
@@ -115,7 +114,11 @@ window#waybar.empty #window {
 }
 
 #custom-power {
-    color: #f38ba8;
+    color: @error;
+}
+
+#custom-powermenu {
+    color: @error;
 }
 
 tooltip {
