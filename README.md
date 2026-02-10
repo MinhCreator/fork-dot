@@ -1,8 +1,5 @@
 # my configs for hyprland
-<img width="1920" height="1080" alt="hyprland-dusk" src="https://github.com/user-attachments/assets/dab2ee6a-2730-4505-b952-d22ce6fc2528" />
-<img width="1920" height="1080" alt="hyprland-forest" src="https://github.com/user-attachments/assets/ff473bda-7c85-4478-8c9a-68e6583c5ef4" />
-
-
+<img width="1920" height="1080" alt="hyprland" src="https://github.com/user-attachments/assets/f8811d1b-f22a-42aa-81d4-906ade4d5554" />
 
 
 ## [video showcase](https://youtu.be/IKBmkHcGWys)
@@ -48,10 +45,7 @@ chmod +x ./osu-winello.sh
 ./osu-winello.sh
 ```
 ![osu! optimization link](https://github.com/NelloKudo/osu-winello/wiki/Optimizing:-osu!-performance#window-managers)
-### install hecade
-```
-curl -fsSL https://raw.githubusercontent.com/Aelune/Hecate/main/install.sh | bash
-```
+
 ### make fish your default shell
 ```
 chsh -s /usr/bin/fish
