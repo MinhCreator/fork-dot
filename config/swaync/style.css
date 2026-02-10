@@ -17,7 +17,6 @@
     border-radius: 20px;
     border: 1px solid @outline;
     box-shadow: none;
-    
     margin: 10px; 
 }
 
@@ -42,7 +41,7 @@
 }
 
 .notification.critical {
-    background: alpha(@error, 0.3);
+    background: alpha(@surface, 0.6);
     border: 2px solid @error;
 }
 
@@ -142,35 +141,19 @@
     border-radius: 20px;
 }
 
+.widget-mpris-player {
+    padding: 0px;
+    margin: 10px;
+    min-height: 0px;
+}
+
 .widget-mpris {
-    background: alpha(@surface, 0.6);
-    padding: 15px;
-    margin: 10px 20px;
-    border-radius: 16px;
-    border: 1px solid @outline;
+    padding: 0px;
+    min-height: 0px;
 }
 
-.widget-mpris-title {
-    font-weight: bold;
-    font-size: 1.1rem;
-    color: @primary;
-}
-
-.widget-mpris-subtitle {
-    font-size: 0.9rem;
-    color: #ffffff;
-}
-
-.widget-mpris buttons > button {
-    border-radius: 20px;
-    box-shadow: none;
-}
-
-.widget-mpris buttons > button:hover {
-    background: @surface_container_high;
-    color: @primary;
-    box-shadow: none;
-    border: none;
+.widget-mpris-player>box>button {
+    margin: 0px;
 }
 
 .widget-buttons-grid {
