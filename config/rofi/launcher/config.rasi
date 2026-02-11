@@ -205,7 +205,7 @@ element {
 }
 element normal.normal {
     background-color:            var(normal-background);
-    text-color:                  var(normal-foreground);
+    text-color:                  white;
 }
 element normal.urgent {
     background-color:            var(urgent-background);
@@ -229,7 +229,7 @@ element selected.active {
 }
 element alternate.normal {
     background-color:            var(alternate-normal-background);
-    text-color:                  var(alternate-normal-foreground);
+    text-color:                  white;
 }
 element alternate.urgent {
     background-color:            var(alternate-urgent-background);
