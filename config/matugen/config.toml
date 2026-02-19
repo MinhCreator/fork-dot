@@ -12,7 +12,16 @@ post_hook = 'pkill -USR2 btop || true'
 [templates.cava]
 input_path = '~/.config/matugen/templates/cava-colors.ini'
 output_path = '~/.config/cava/themes/cava-colors.ini'
-post_hook = 'pkill -USR1 cava'
+post_hook = 'pkill -USR1 cava || true'
+
+[templates.spicetify]
+input_path = "~/.config/matugen/templates/spicetify.ini"
+output_path = "~/.config/spicetify/Themes/Ziro/color.ini"
+post_hook = "spicetify apply"
+
+[templates.obsidian]
+input_path = "~/.config/matugen/templates/obsidian.css"
+output_path = "~/documents/obsidian/deridray/.obsidian/snippets/matugen.css"
 
 [templates.gtk3]
 input_path = '~/.config/matugen/templates/gtk-colors.css'
@@ -49,6 +58,10 @@ output_path = '~/.config/Kvantum/matugen/matugen.svg'
 input_path = '~/.config/matugen/templates/midnight-discord.css'
 output_path = '~/.config/Vencord/themes/midnight-discord.css'
 
+[templates.hyprluna]
+input_path = "~/.config/matugen/templates/vscode-hyprluna.json"
+output_path = "~/.cache/wal/colors-vscode.json"
+
 [templates.pywalfox]
 input_path = '~/.config/matugen/templates/pywalfox-colors.json'
 output_path = '~/.cache/wal/colors.json'
@@ -71,11 +84,6 @@ output_path = '~/.config/qt6ct/colors/matugen.conf'
 input_path = '~/.config/matugen/templates/rofi-colors.rasi'
 output_path = '~/.config/rofi/colors/matugen.rasi'
 
-[templates.spotify]
-input_path = '~/.config/matugen/templates/spicetify.ini'
-output_path = '~/.config/spicetify/Themes/Sleek/color.ini'
-post_hook = 'spicetify watch -s 2>&1 | sed "/Reloaded Spotify/q"'
-
 [templates.starship]
 input_path = '~/.config/matugen/templates/starship-colors.toml'
 output_path = '~/.config/starship.toml'
@@ -89,7 +97,6 @@ post_hook = 'pkill -SIGUSR2 waybar'
 input_path = '~/.config/matugen/templates/wine.reg'
 output_path = '/tmp/wine.reg'
 post_hook = 'wine regedit /tmp/wine.reg'
-
 
 [templates.wlogout]
 input_path = '~/.config/matugen/templates/colors.css'

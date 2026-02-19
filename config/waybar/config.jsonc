@@ -2,7 +2,7 @@
   "layer": "top",
   "margin": "15 5 0 5",
   "position": "top",
-  "height": 24,
+  "height": 42,
   "spacing": 2,  "exclusive": true,
   "gtk-layer-shell": true,
   "passthrough": false,
@@ -20,24 +20,18 @@
     "custom/powermenu"
   ],
   "custom/spotify": {
-    "format": "  {}",
-    "return-type": "json",
-    "on-click": "playerctl -p spotify play-pause",
-    "on-click-right": "spotifatius toggle-liked",
-    "on-click-middle": "playerctl -p spotify next",
-    "exec": "spotifatius monitor"
+      "format": " {}",
+      "return-type": "json",
+      "on-click": "playerctl -p spotify play-pause",
+      "on-click-right": "playerctl -p spotify next",
+      "exec": "playerctl -p spotify metadata --format '{\"text\": \"{{artist}} - {{title}}\", \"class\": \"{{status}}\"}' --follow",
+      "max-length": 40
   },
   "mpris": {
-    "player": "spotify",
-    "dynamic-order": ["artist", "title"],
-    "format": "{player_icon} {dynamic}",
-    "format-paused": "{status_icon} <i>{dynamic}</i>",
-    "status-icons": {
-      "paused": ""
-    },
-    "player-icons": {
-      "default": ""
-    }
+      "format": " {dynamic}",
+      "format-paused": " <i>{dynamic}</i>",
+      "player": "spotify",
+      "dynamic-order": ["artist", "title"]
   },
   "hyprland/workspaces": {
     "on-click": "activate",

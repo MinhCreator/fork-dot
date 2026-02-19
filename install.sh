@@ -27,14 +27,11 @@ fi
 echo "starting to install packages, hold tight..."
 
 echo "installing main dependencies..."
-paru -Syu --needed stow librewolf-bin helium-browser-bin kitty thunar yazi-git neovim sddm hyprland swww hyprcursor hyprlock hypridle hyprpicker rofi waybar matugen-bin mission-center swaync fastfetch nano xarchiver ncdu openssh flatpak mpv qimgv better-control pavucontrol base-devel git cmake ninja udiskie btop playerctl fish arandr nwg-look nwg-displays nwg-clipman starship 
-
-echo "installing drivers..."
-paru -Syu --needed bluez blueman pipewire wireplumber pipewire-pulse pipewire-alsa xdg-desktop-portal xdg-desktop-portal-hyprland xwaylandvideobridge networkmanager btrfs-progs gvfs gvfs-dnssd cliphist wl-clipboard ffmpeg 7zip jq poppler fd ripgrep ripdrag fzf zoxide resvg imagemagick libqalculate aubio libcava evolution-data-server
-
+paru -Syu --needed stow librewolf-bin helium-browser-bin kitty thunar yazi neovim sddm hyprland swww hyprcursor hyprlock hypridle hyprpicker rofi waybar matugen-bin mission-center swaync fastfetch nano xarchiver ncdu flatpak mpv qimgv better-control pavucontrol udiskie btop fish nwg-look nwg-displays nwg-clipman starship
+echo "installing drivers and libraries..."
+paru -Syu --needed base-devel git cmake ninja wget zenity bluez blueman pipewire wireplumber pipewire-pulse pipewire-alsa xdg-desktop-portal xdg-desktop-portal-hyprland xwaylandvideobridge networkmanager btrfs-progs ntfs-3g gvfs gvfs-dnssd cliphist wl-clipboard ffmpeg tar unzip 7zip jq poppler fd ripgrep ripdrag fzf zoxide resvg imagemagick libqalculate aubio libcava evolution-data-server luarocks playerctl openssh
 echo "installing themes and fonts..."
-paru -Syu --needed tokyonight-gtk-theme-git adw-gtk-theme noto-fonts noto-fonts-emoji ttf-font-awesome nerd-fonts papirus-icon-theme bibata-cursor-theme-bin ttf-rubik-vf ttf-material-symbols-variable-git python-materialyoucolor ttf-roboto inter-font 
-
+paru -Syu --needed tokyonight-gtk-theme-git adw-gtk-theme noto-fonts noto-fonts-emoji ttf-font-awesome nerd-fonts papirus-icon-theme bibata-cursor-theme-bin ttf-rubik-vf ttf-material-symbols-variable-git python-materialyoucolor ttf-roboto inter-font
 echo "packages installed"
 
 # 2. symlink dotfiles using stow
