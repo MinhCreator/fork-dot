@@ -20,6 +20,19 @@ alias whitelist="nano $HOME/dotfiles/.whitelist"
 alias fishconfig="nvim ~/.config/fish/config.fish"
 alias hyprconfig="nvim ~/.config/hypr/hyprland.conf"
 alias f="yazi"
+alias aur="paru"
+alias paur="paru"
+alias yay="paru"
+alias vim="nvim"
+alias s="paru -S"
+alias ss="paru -Ss"
+alias sy="paru -Sy"
+alias syu="paru -Syu"
+alias r="paru -R"
+alias rs="paru -Rs"
+alias rns="paru -Rns"
+alias c="clear"
+
 
 # ====== integration with starship ======
 if type -q starship

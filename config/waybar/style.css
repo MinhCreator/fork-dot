@@ -11,7 +11,7 @@
 window#waybar {
     background-color: alpha(@surface, 0.8);
     color: #ffffff;
-    border-radius: 15px;
+    border-radius: 25px;
     transition-property: background-color;
     transition-duration: .5s;
 }
