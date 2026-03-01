@@ -89,3 +89,9 @@ MTAB_SAVE_FORMAT_v1.11.1_{"options":{"showOptionsButton":false},"user":{"name":"
 ```
 https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt
 ```
+
+### webhid support
+```
+echo 'KERNEL=="hidraw*", MODE="0666"' | sudo tee /etc/udev/rules.d/99-webhid.rules
+sudo udevadm control --reload-rules && sudo udevadm trigger
+```
