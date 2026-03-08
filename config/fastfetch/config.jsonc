@@ -1,16 +1,7 @@
-//   _____ _____ _____ _____ _____ _____ _____ _____ _____ 
-//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
-//  |   __|     |__   | | | |   __|   __| | | |   --|     |
-//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|  ARCH  
-//
-//  by Bina
-
-
-// execute with: fastfetch --colors-block-range-start 9 --colors-block-width 3
-
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
+        "color": {"1": "#c3c0ff", "2": "#c7c4dd"},
         "source": "~/.config/fastfetch/ascii/arch.txt",
         "padding": {
             "top": 2,
@@ -18,6 +9,7 @@
         }
     },
     "display": {
+        "color": {"keys": "#c3c0ff", "title": "#c7c4dd"},
         "separator": " "
     },
     "modules": [
@@ -32,51 +24,43 @@
             "type": "os",
             "format": "{name}",
             "key": " ",
-            "keyColor": "33",  // = color3
         },
         {
             "type": "wm",
             "format": "{process-name}",
             "key": " ",
-            "keyColor": "33", 
         },
         {
             "type": "uptime",
             "format": "{hours}h {minutes}m",
             "key": " ",
-            "keyColor": "33", 
         },
         {
             "type": "packages",
             "format": "{}",
-            "key": " ",
-            "keyColor": "33",  
+            "key": " ",  
         },
         {
             "type": "cpu",
             "format": "{name}",
-            "key": " ",
-            "keyColor": "33", 
+            "key": " ", 
         },
         {
             "type": "gpu",
             "format": "{name}",
             "key": " ",
-            "keyColor": "33",
         },
         {
             "type": "memory",
-            "key": " ",
-            "keyColor": "33", 
+            "key": " ", 
         },
         {
             "type": "media",
-            "key": "󰝚 ",
-            "keyColor": "33", 
+            "key": "󰝚 ", 
         },
         "break",
         {
-            "key": "{#39} ",
+            "key": " ",
             "type": "colors",
             "symbol": "circle"
         },

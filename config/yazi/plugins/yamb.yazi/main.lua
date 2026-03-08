@@ -301,7 +301,7 @@ return {
 	setup = function(state, options)
 		state.path = options.path
 			or (ya.target_family() == "windows" and os.getenv("APPDATA") .. "\\yazi\\config\\bookmark")
-			or (os.getenv("HOME") .. "/.config/yazi/bookmark")
+			or (os.getenv("HOME") .. "/.config/yazi/bookmarks")
 		state.cli = options.cli or "fzf"
 		state.jump_notify = options.jump_notify and true
 		-- init the keys

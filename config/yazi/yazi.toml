@@ -5,6 +5,12 @@ sort_dir_first = true
 show_hidden    = true
 mouse_events = [ "click", "scroll", "touch", "move", "drag" ]
 
+[theme]
+use = "theme"
+
+[icons]
+enabled = true
+
 [plugin]
 prepend_previewers = [
     # archives (zip, rar, 7z, tar)

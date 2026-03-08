@@ -45,6 +45,11 @@
     "rewrite": {
         "librewolf": " librewolf",
         "firefox": " firefox",
+        "zen": " zen", 
+        "brave-browser": " brave",
+        "helium": " helium",
+        "vivaldi": " vivaldi",
+        "chromium": " chromium",
         "kitty": " kitty",
         "spotify": " spotify",
         "code": "󰨞 code",
@@ -59,7 +64,7 @@
         "on-click": "$HOME/.config/rofi/launcher/launcher.sh"
     },
   "tray": {
-    "show-passive-items": true,
+    "show-passive-items": false,
     "spacing": 10
   },
   "clock": {
@@ -83,6 +88,8 @@
       "default": [" ", " ", " "]
     },
     "on-click": "control --volume",
+    "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%+ && ~/.local/bin/volume.sh",
+    "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%- && ~/.local/bin/volume.sh",
     "max-volume": 150
   },
     "network": {
@@ -109,9 +116,9 @@
 
     "hyprland/language": {
         "format": " {} ",
-        "format-en": "us",
+        "format-en": "en",
         "format-ua": "ua",
-        "format-ru": "ru"
+        "format-ru": "ru",
     },
 
     "battery": {
@@ -123,7 +130,7 @@
 	},
 	"events": {
 		"on-discharging-warning": "notify-send -u normal 'low battery' 'you have less then 30% battery left'",
-		"on-discharging-critical": "notify-send -u critical 'very low battery' 'you have less then 15% battery left'"
+		"on-discharging-critical": "notify-send -u normal 'very low battery' 'you have less then 15% battery left'"
 	},
         "format": "{icon} {capacity}%",
         "format-charging": "{icon} ",

@@ -14,25 +14,40 @@ alias ...="cd ../.."
 alias connect="ssh owodray@192.168.0.107"
 alias upd="sudo nano /opt/discord/resources/build_info.json"
 alias tosu="~/documents/tosu/tosu"
+alias collector="~/documents/collector/osu-collector-dl"
 alias dotfiles="$HOME/dotfiles/.sync.sh"
 alias commit="$HOME/dotfiles/.push.sh"
 alias whitelist="nano $HOME/dotfiles/.whitelist"
 alias fishconfig="nvim ~/.config/fish/config.fish"
 alias hyprconfig="nvim ~/.config/hypr/hyprland.conf"
 alias f="yazi"
+alias vim="nvim"
 alias aur="paru"
 alias paur="paru"
 alias yay="paru"
-alias vim="nvim"
 alias s="paru -S"
+alias S="paru -S"
 alias ss="paru -Ss"
+alias Ss="paru -Ss"
 alias sy="paru -Sy"
+alias Sy="paru -Sy"
 alias syu="paru -Syu"
+alias Syu="paru -Syu"
+alias syy="paru -Syy"
+alias Syy="paru -Syy"
 alias r="paru -R"
+alias R="paru -R"
 alias rs="paru -Rs"
+alias Rs="paru -Rs"
 alias rns="paru -Rns"
-alias c="clear"
+alias Rns="paru -Rns"
+alias sc="paru -Sc"
+alias Sc="paru -Sc"
+alias c="clear && fastfetch"
+alias fetch="clear && fastfetch"
 
+alias neofetch="fastfetch"
+alias waybar="$HOME/.config/waybar/launch.sh"
 
 # ====== integration with starship ======
 if type -q starship
@@ -70,6 +85,6 @@ end
 starship init fish | source
 
 # ====== set default editor ======
-set -gx EDITOR nvim
+set -gx EDITOR code
 
 fish_add_path /home/deridray/.spicetify

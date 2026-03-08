@@ -5,6 +5,7 @@ set -e
 DOTDIR="$HOME/dotfiles"
 CONFIG_SRC="$DOTDIR/config"
 HOME_SRC="$DOTDIR/home"
+LOCAL_SRC="$DOTDIR/local"
 
 echo "checking paru installation..."
 
@@ -27,9 +28,9 @@ fi
 echo "starting to install packages, hold tight..."
 
 echo "installing main dependencies..."
-paru -Syu --needed stow librewolf-bin helium-browser-bin kitty thunar yazi neovim sddm hyprland swww hyprcursor hyprlock hypridle hyprpicker rofi waybar matugen-bin mission-center swaync fastfetch nano xarchiver ncdu flatpak mpv qimgv better-control pavucontrol udiskie btop fish nwg-look nwg-displays nwg-clipman starship
+paru -Syu --needed stow librewolf-bin brave-bin kitty thunar yazi neovim sddm hyprland swww hyprcursor hyprlock hypridle hyprpicker rofi waybar matugen-bin btop mission-center swaync fastfetch nano xarchiver ncdu flatpak mpv rmpc qimgv better-control pavucontrol fish starship nwg-look nwg-displays nwg-clipman
 echo "installing drivers and libraries..."
-paru -Syu --needed base-devel git cmake ninja wget zenity bluez blueman pipewire wireplumber pipewire-pulse pipewire-alsa xdg-desktop-portal xdg-desktop-portal-hyprland xwaylandvideobridge networkmanager btrfs-progs ntfs-3g gvfs gvfs-dnssd cliphist wl-clipboard ffmpeg tar unzip 7zip jq poppler fd ripgrep ripdrag fzf zoxide resvg imagemagick libqalculate aubio libcava evolution-data-server luarocks playerctl openssh
+paru -Syu --needed base-devel git cmake ninja wget zenity udiskie bluez blueman pipewire wireplumber pipewire-pulse pipewire-alsa pamixer mpd xdg-desktop-portal xdg-desktop-portal-hyprland xwaylandvideobridge networkmanager btrfs-progs ntfs-3g gvfs gvfs-dnssd cliphist wl-clipboard ffmpeg tar unzip 7zip jq poppler fd ripgrep ripdrag fzf zoxide resvg imagemagick libqalculate aubio libcava evolution-data-server luarocks playerctl openssh
 echo "installing themes and fonts..."
 paru -Syu --needed tokyonight-gtk-theme-git adw-gtk-theme noto-fonts noto-fonts-emoji ttf-font-awesome nerd-fonts papirus-icon-theme bibata-cursor-theme-bin ttf-rubik-vf ttf-material-symbols-variable-git python-materialyoucolor ttf-roboto inter-font
 echo "packages installed"
@@ -72,11 +73,29 @@ if [ -d "$DOTDIR" ]; then
         echo "ℹ️ directory $HOME_SRC not found, skipping home linking"
     fi
 
+    # --- Part C: Handle ~/.local (from ~/dotfiles/local) ---
+    if [ -d "$LOCAL_SRC" ]; then
+        echo "🔗 processing local files..."
+        mkdir -p "$HOME/.local"
+        
+        if [ -d "$HOME/.local/bin" ] && [ ! -L "$HOME/.local/bin" ]; then
+            echo "⚠️ backuping existing bin: $HOME/.local/bin -> $HOME/.local/bin.backup"
+            mv "$HOME/.local/bin" "$HOME/.local/bin.backup"
+        fi
+
+        stow -v -d "$LOCAL_SRC" -t "$HOME/.local" local
+        echo "✅ .local files linked"
+    else
+        echo "ℹ️ directory $LOCAL_SRC not found, skipping"
+    fi
+
     echo "✅ dotfiles linked successfully"
 
 else
     echo "❌ dotfiles folder not found at $DOTDIR, skipping linking"
 fi
+
+
 
 # 3. set up keyboard layouts
 sudo mkdir -p /etc/X11/xorg.conf.d/
