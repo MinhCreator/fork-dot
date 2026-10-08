@@ -19,7 +19,7 @@ chmod +x ./install.sh
 ### packages:
 ```
 # main pkgs
-paru -Syu --needed stow zen-browser-bin librewolf-bin helium-browser-bin kitty thunar yazi neovim sddm mangowm swayidle hyprland awww waypaper hyprlock hypridle hyprpicker hyprshot hyprpolkitagent rofi waybar matugen btop mission-center swaync fastfetch nano xarchiver ncdu flatpak mpv rmpc qimgv better-control pavucontrol fish starship nwg-look nwg-displays nwg-clipman
+paru -Syu --needed stow zen-browser-bin librewolf-bin helium-browser-bin kitty foot thunar yazi neovim sddm mangowm swayidle hyprland awww waypaper hyprlock hypridle hyprpicker hyprshot hyprpolkitagent rofi waybar matugen btop mission-center swaync fastfetch nano xarchiver ncdu flatpak mpv rmpc qimgv better-control pavucontrol fish starship nwg-look nwg-displays nwg-clipman
 
 # drivers and libraries
 paru -Syu --needed base-devel git cmake ninja wget zenity udiskie bluez blueman pipewire wireplumber pipewire-pulse pipewire-alsa pamixer mpd xdg-desktop-portal xdg-desktop-portal-hyprland xdg-desktop-portal-wlr xdg-desktop-portal-gtk xwaylandvideobridge networkmanager btrfs-progs ntfs-3g wlomp gvfs gvfs-dnssd cliphist wl-clipboard ffmpeg tar unzip 7zip jq poppler fd ripgrep ripdrag fzf zoxide resvg imagemagick libqalculate aubio libcava evolution-data-server luarocks playerctl openssh
@@ -31,7 +31,7 @@ paru -Syu --needed adw-gtk-theme noto-fonts noto-fonts-emoji ttf-font-awesome ne
 
 ```
 # optional dependencies
-paru -Syu --needed --noconfirm ente-auth-bin visual-studio-code-bin steam heroic-games-launcher-bin portproton proton-cachyos proton-ge-custom-bin umu-launcher gamemode wine wine-mono portproton prismlauncher discord ayugram-desktop-bin thunderbird spotify jdk8-openjdk jdk17-openjdk jdk21-openjdk cava peaclock obs-studio gpu-screen-recorder gpu-screen-recorder-ui bitwarden losslesscut-bin logmein-hamachi haguichi v4l2loopback-dkms nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader
+paru -Syu --needed --noconfirm ente-auth-bin vscodium-bin steam heroic-games-launcher-bin portproton proton-cachyos proton-ge-custom-bin umu-launcher gamemode wine wine-mono portproton prismlauncher discord ayugram-desktop-bin thunderbird spotify jdk8-openjdk jdk17-openjdk jdk21-openjdk cava peaclock obs-studio gpu-screen-recorder gpu-screen-recorder-ui bitwarden losslesscut-bin logmein-hamachi haguichi v4l2loopback-dkms nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader
 ```
 ### install vencord:
 ```

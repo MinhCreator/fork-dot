@@ -11,16 +11,24 @@ alias grep="grep --color=auto"
 alias update="paru -Syu"
 alias ..="cd .."
 alias ...="cd ../.."
+
 alias connect="ssh owodray@192.168.0.107"
 alias upd="sudo nano /opt/discord/resources/build_info.json"
-alias tosu="~/documents/tosu/tosu"
+
+alias tosu="~/documents/osu!/tosu-linux/tosu"
+alias lazer="~/games/osu-lazer/osu.AppImage"
+alias osu-lazer="~/games/osu-lazer/osu.AppImage"
 alias vencord='sh -c "$(curl -sS https://vencord.dev/install.sh)"'
+alias equicord='~/downloads/setups/Equilotl-wayland'
 alias collector="~/documents/collector/osu-collector-dl"
+
 alias dotfiles="$HOME/dotfiles/.sync.sh"
 alias commit="$HOME/dotfiles/.push.sh"
 alias whitelist="nano $HOME/dotfiles/.whitelist"
+
 alias fishconfig="nvim ~/.config/fish/config.fish"
 alias hyprconfig="nvim ~/.config/hypr/hyprland.conf"
+
 alias f="yazi"
 alias vim="nvim"
 alias aur="paru"

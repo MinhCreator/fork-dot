@@ -1,22 +1,20 @@
 {
   "layer": "top",
-  "margin": "5 5 0 5",
+  "margin": "0 0 0 0",
   "position": "top",
   "height": 24,
   "spacing": 0,  "exclusive": true,
   "gtk-layer-shell": true,
   "passthrough": false,
   "fixed-center": true,
-  "modules-left": ["custom/menu", "hyprland/workspaces", "hyprland/window"],
-  "modules-center": ["mpris"],
+  "modules-left": ["custom/menu", "hyprland/workspaces", "mpris"],
+  "modules-center": ["clock", "custom/notification"],
   "modules-right": [
     "group/tray-expander",
     "hyprland/language",
-    "battery",
     "network",
     "pulseaudio",
-    "clock",
-    "custom/notification",
+    "battery",
     "custom/powermenu"
   ],
   "custom/spotify": {
@@ -64,28 +62,37 @@
         "on-click": "$HOME/.config/rofi/launcher/launcher.sh"
     },
   "group/tray-expander": {
-    "orientation": "horizontal",
+    "orientation": "inherit",
     "drawer": {
       "transition-duration": 300,
-      "children-class": "tray-group-item"
+      "children-class": "tray-group-item",
     },
-    "modules": [
-      "custom/expand-icon",
-      "tray"
-    ]
+    "modules": ["custom/expand-icon", "tray"],
   },
+
   "custom/expand-icon": {
-    "format": " ",
-    "tooltip": false
+    "format": "",
+    "tooltip": false,
   },
+
   "tray": {
-    "show-passive-items": false,
-    "spacing": 10
+    "show-passive-items": true,
+    "spacing": 10,
   },
   "clock": {
-    "format": " {:%H:%M}",
-    "format-alt": " {:L%a %d %b}",
-    "tooltip": false
+    "format": "{:%a %d ｜ %H:%M}",
+    "format-alt": "{:L%d %B %Y}",
+    "tooltip-format": "<span>{calendar}</span>",
+    "calendar": {
+      "mode": "month",
+      "mode-mon-col": 3,
+      "on-click-right": "mode",
+      "format": {
+        "month": "<span color='#ffead3'><b>{}</b></span>",
+        "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+        "today": "<span color='#ff6699'><b>{}</b></span>",
+      },
+    },
   },
   "cpu": {
     "format": " {usage}%",
@@ -110,8 +117,8 @@
     "network": {
         "format": "",
         "on-click": "control --wifi",
-        "format-ethernet": "\udb83\udc9d {ifname}",
-        "format-wifi": "{icon} {essid}",
+        "format-ethernet": "\udb83\udc9d",
+        "format-wifi": "{icon}",
         "format-disconnected": "\udb83\udc9c disconnected",
         "format-icons": ["\udb82\udd2f", "\udb82\udd1f", "\udb82\udd22", "\udb82\udd25", "\udb82\udd28"],
         "tooltip-format-wifi": "{essid} ({signalStrength}%)",
@@ -172,17 +179,24 @@
     "on-click": "$HOME/.config/rofi/powermenu/powermenu.sh"
   },
   "custom/notification": {
-    "escape": true,
-    "exec": "swaync-client -swb",
-    "exec-if": "which swaync-client",
+    "tooltip": false,
     "format": "{icon}",
     "format-icons": {
-      "none": "󰅺",
-      "notification": "󰡟"
+      "notification": "󱅫",
+      "none": "󰂜",
+      "dnd-notification": "",
+      "dnd-none": "󰪑",
+      "inhibited-notification": "󰅸",
+      "inhibited-none": "󰂜",
+      "dnd-inhibited-notification": "",
+      "dnd-inhibited-none": "󰪑",
     },
-    "on-click": "sleep 0.1 && swaync-client -t -sw",
     "return-type": "json",
-    "tooltip": false
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "sleep 0.1s && swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true,
   },
 },
 

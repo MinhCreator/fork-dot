@@ -8,13 +8,13 @@
 .control-center {
     background: alpha(@background, 0.8);
     border: 2px solid @primary;
-    border-radius: 25px;
+    border-radius: 0px;
     box-shadow: none;
 }
 
 .notification {
     background: alpha(@surface, 0.6);
-    border-radius: 25px;
+    border-radius: 0px;
     border: 1px solid @outline;
     box-shadow: none;
     margin: 10px; 

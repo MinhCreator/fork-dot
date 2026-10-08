@@ -137,3 +137,6 @@ export VIRTUAL_ENV_DISABLE_PROMPT=1
 fastfetch
 alias ayugram='/usr/bin/AyuGram'
 export PATH=/home/deridray/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+
+# Added by SpoTUI installer
+export PATH="$PATH:/home/deridray/.local/share/spotui"

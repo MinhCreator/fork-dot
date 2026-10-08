@@ -73,7 +73,7 @@ window {
     margin:                      0px;
     padding:                     0px;
     border:                      2px solid;
-    border-radius:               25px;
+    border-radius:               0px;
     border-color:                @selected;
     cursor:                      "default";
     background-color:            @background;
@@ -111,14 +111,14 @@ textbox-prompt-colon {
     expand:                      false;
     str:                         "";
     padding:                     12px 16px;
-    border-radius:               100%;
+    border-radius:               0%;
     background-color:            @urgent;
     text-color:                  @background;
 }
 prompt {
     enabled:                     true;
     padding:                     12px;
-    border-radius:               100%;
+    border-radius:               0%;
     background-color:            @active;
     text-color:                  @background;
 }
@@ -129,7 +129,7 @@ message {
     margin:                      0px;
     padding:                     12px;
     border:                      0px solid;
-    border-radius:               25px;
+    border-radius:               0px;
     border-color:                @selected;
     background-color:            @background-alt;
     text-color:                  @foreground;
@@ -183,7 +183,7 @@ element {
     margin:                      0px;
     padding:                     12px;
     border:                      0px solid;
-    border-radius:               25px;
+    border-radius:               0px;
     border-color:                @selected;
     background-color:            transparent;
     text-color:                  white;

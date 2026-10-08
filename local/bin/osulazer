@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+export SDL_VIDEO_DOUBLE_BUFFER=1
+export PIPEWIRE_LATENCY=64/48000
+export OSU_TEMP_TESTING_BASS_CONFIG_DEV_PERIOD=-64
+~/games/osu-lazer/osu.AppImage &

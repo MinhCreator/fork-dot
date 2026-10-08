@@ -55,8 +55,8 @@ hl.gesture({
 -- Example per-device config
 -- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Devices/ for more
 hl.device({
-    name        = "epic-mouse-v1",
-    sensitivity = -0.5,
+    name = "opentabletdriver-virtual-artist-tablet",
+    output = "DP-1"
 })
 
 hl.device({

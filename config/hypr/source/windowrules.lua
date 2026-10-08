@@ -40,12 +40,6 @@ hl.window_rule({
 -- })
 -- overlayLayerRule:set_enabled(false)
 
-hl.window_rule({
-    name      = "osu-immediate",
-    match     = { class = "osu!" },
-    immediate = true,
-})
-
 hl.workspace_rule({ workspace = "1", layout_opts = { direction = "right" } })
 
 hl.layer_rule({
@@ -88,9 +82,7 @@ hl.window_rule({
 })
 
 hl.window_rule({
-    immediate = true,
-    workspace = 6,
-    match     = { class = "^(osu!.exe)$" },
+  match = { class = "osu!.exe" }, immediate = true
 })
 
 hl.window_rule({

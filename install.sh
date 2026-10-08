@@ -28,7 +28,7 @@ fi
 echo "starting to install packages, hold tight..."
 
 echo "installing main dependencies..."
-paru -Syu --needed stow zen-browser-bin librewolf-bin helium-browser-bin kitty thunar yazi neovim sddm mangowm swayidle hyprland awww waypaper hyprlock hypridle hyprpicker hyprshot hyprpolkitagent rofi waybar matugen btop mission-center swaync fastfetch nano xarchiver ncdu flatpak mpv rmpc qimgv better-control pavucontrol fish starship nwg-look nwg-displays nwg-clipman
+paru -Syu --needed stow zen-browser-bin librewolf-bin helium-browser-bin kitty foot thunar yazi neovim sddm mangowm swayidle hyprland awww waypaper hyprlock hypridle hyprpicker hyprshot hyprpolkitagent rofi waybar matugen btop mission-center swaync fastfetch nano xarchiver ncdu flatpak mpv rmpc qimgv better-control pavucontrol fish starship nwg-look nwg-displays nwg-clipman
 echo "installing drivers and libraries..."
 paru -Syu --needed base-devel git cmake ninja wget zenity udiskie bluez blueman pipewire wireplumber pipewire-pulse pipewire-alsa pamixer mpd xdg-desktop-portal xdg-desktop-portal-hyprland xdg-desktop-portal-wlr xdg-desktop-portal-gtk xwaylandvideobridge networkmanager btrfs-progs ntfs-3g wlopm gvfs gvfs-dnssd cliphist wl-clipboard ffmpeg tar unzip 7zip jq poppler fd ripgrep ripdrag fzf zoxide resvg imagemagick libqalculate aubio libcava evolution-data-server luarocks playerctl openssh
 echo "installing themes and fonts..."

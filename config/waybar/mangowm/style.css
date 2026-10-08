@@ -3,24 +3,24 @@
 * {
     min-height: 0;
     min-width: 0;
-    font-family: "Google Sans Display Medium", Lexend, "JetBrainsMono NFP";
+    font-family: Lexend, "JetBrainsMono NFP";
     font-size: 16px;
     font-weight: 600;
 }
 
 window#waybar {
-    background-color: alpha(@surface, 0.8);
+    background-color: alpha(@surface, 1);
     color: #ffffff;
-    border-radius: 15px;
+    border-radius: 0px;
     transition-property: background-color;
     transition-duration: .5s;
 }
 
 #workspaces button {
-    padding: 0.3rem 0.6rem;
-    margin: 0.4rem 0.25rem;
-    border-radius: 6px;
-    background-color: @surface_container;
+    padding: 5 5px;
+    margin: 0 2px;
+    border-radius: 0px;
+    background-color: transparent;
     color: @on_surface;
 }
 
@@ -30,8 +30,8 @@ window#waybar {
 }
 
 #workspaces button.active {
-    background-color: @primary;
-    color: @on_primary;
+    background-color: transparent;
+    color: @primary;
 }
 
 #workspaces button.urgent {
@@ -52,14 +52,15 @@ window#waybar {
 #custom-notification,
 #cpu,
 #tray,
+#custom-cava,
 #memory,
 #window,
 #language,
 #custom-expand-icon,
 #mpris {
-    padding: 0.3rem 0.6rem;
-    margin: 0.4rem 0.25rem;
-    border-radius: 6px;
+    padding: 0 5px;
+    margin: 5 5px;
+    border-radius: 0px;
     /* background-color: #181825; */
     background-color: transparent;
     color: @primary;

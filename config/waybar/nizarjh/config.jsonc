@@ -1,0 +1,141 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 28,
+  "margin-left": 15,
+  "margin-right": 15,
+  "margin-top": 10,
+  "modules-left": [
+    "mango/workspaces",
+    "custom/cava"
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "mango/language",
+    "backlight",
+    "pulseaudio",
+    "network",
+    "temperature",
+    "cpu",
+    "memory",
+    "battery"
+  ],
+  "mango/workspaces": {
+      "format": "{icon}",
+      "hide-empty": true,
+      "on-click": "activate",
+      "on-click-right": "toggle",
+      "overview-label": "OVERVIEW",
+  },
+  "mango/window": {
+    "format": "{}",
+	  "icon-size": 20
+  },
+  "mango/layout": {
+      "format": " [ {} ] ",
+      // "format-S": "Scroller",
+      // "format-T": "Tile",
+  },
+  "mango/language": {
+  "format": "{short}",
+  },
+  "mango/keymode": {
+  	"format": "{}",
+  	// "format-default": " Default",
+    // "format-test": " Test",
+  },
+  "temperature": {
+    // "thermal-zone": 2,
+    "hwmon-path": "/sys/class/hwmon/hwmon4/temp2_input",
+    "critical-threshold": 80,
+    // "format-critical": "{temperatureC}°C {icon}",
+    "format": "{temperatureC}°C {icon}",
+    "format-icons": [
+      "",
+      "",
+      ""
+    ]
+  },
+  "sway/scratchpad": {
+    "format": "{icon} {count}",
+    "show-empty": false,
+    "format-icons": [
+      "",
+      ""
+    ],
+    "tooltip": true,
+    "tooltip-format": "{app}: {title}"
+  },
+  "backlight": {
+    "device": "amdgpu_bl1",
+    "format": "{percent}% {icon}",
+    "format-icons": [
+      "",
+      ""
+    ],
+    "on-scroll-up": "brightnessctl set 2%+",
+    "on-scroll-down": "brightnessctl --min-value=1 set 2%-"
+  },
+  "clock": {
+    "format": "{:%H:%M} ",
+    "format-alt": "{:%Y-%m-%d} "
+  },
+  "cpu": {
+    "format": "{usage}% ",
+    "on-click" : "foot -e btop",
+    "tooltip" : false
+  },
+  "memory": {
+    "format": "{}% ",
+    "on-click" : "foot -e htop"
+  },
+  "battery": {
+    "bat": "BAT1",
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{capacity}% {icon}",
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "network": {
+    "format-wifi": "{signalStrength}% ",
+    "format-ethernet": "",
+    "format-disconnected": "",
+    "on-click": "foot -e nmtui"
+  },
+  "pulseaudio": {
+    "format": "{volume}% {icon}",
+    "format-bluetooth": "{volume}% {icon}",
+    "format-muted": "",
+    "format-icons": {
+      "headphones": "",
+      "handsfree": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": [
+        "",
+        ""
+      ]
+    },
+    "on-click": "pavucontrol"
+  },
+
+
+  "custom/cava": {
+    "format": "{}",
+    "exec": "~/.config/waybar/cava.sh",
+    "return-type": "stdout"
+  }
+
+}

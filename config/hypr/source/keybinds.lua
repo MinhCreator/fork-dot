@@ -4,7 +4,7 @@
 -- Set programs that you use
 local terminal    = "kitty"
 local fileManager = "kitty yazi"
-local browser     = "zen-browser"
+local browser     = "helium-browser"
 local email       = "betterbird"
 local editor      = "code"
 local musicPlayer = "spotify"
